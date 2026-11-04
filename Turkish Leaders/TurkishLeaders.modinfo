@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10" version="1">
+  <Properties>
+    <Name>Türk Liderleri (Turkish Leaders)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Osman Bey, Orhan Gazi, Fatih, Yavuz, Battal Gazi ve Atatürk ile altı yeni Türk medeniyeti ve Avrupa-Orta Doğu-Afrika haritası.</Teaser>
+    <Description>Altı yeni medeniyet ekler: Kayı Beyliği (Osman Bey), Osmanlı Beyliği (Orhan Gazi), Osmanlı Devleti (Fatih Sultan Mehmet), Osmanlı Hilafeti (Yavuz Sultan Selim), Uç Gazileri (Seyyid Battal Gazi) ve Türkiye Cumhuriyeti (Mustafa Kemal Atatürk). Her medeniyetin kendine özgü yeteneği, birimi ve binası vardır. Ayrıca gerçek coğrafyaya dayanan, tarihî başlangıç noktalı bir Avrupa, Orta Doğu ve Afrika haritası içerir. Brave New World gerektirir.</Description>
+    <Authors>Bora Şavkar</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="EEAD1EBA3A56C396498A5B4418725A92" import="1">Art/Icons/TL_CivAlphaAtlas_128.dds</File>
+    <File md5="2815269609E8F9EFF3933B4A47FC1961" import="1">Art/Icons/TL_CivAlphaAtlas_16.dds</File>
+    <File md5="EE6B774D0EFBFF145F16C9C39F58689A" import="1">Art/Icons/TL_CivAlphaAtlas_24.dds</File>
+    <File md5="BA3AC7486A71429EB56943973A4AA580" import="1">Art/Icons/TL_CivAlphaAtlas_32.dds</File>
+    <File md5="0B60E46C69EACF93652CBC867B18ACA9" import="1">Art/Icons/TL_CivAlphaAtlas_45.dds</File>
+    <File md5="482F3EC162E7DA36BF63A37534F2BAA6" import="1">Art/Icons/TL_CivAlphaAtlas_48.dds</File>
+    <File md5="5BC59A34E4AF48B8F8491E3C39486184" import="1">Art/Icons/TL_CivAlphaAtlas_64.dds</File>
+    <File md5="79F0AF381533775549D38AF5B240EBFD" import="1">Art/Icons/TL_CivAlphaAtlas_80.dds</File>
+    <File md5="E5F64727A6D0C40FEF4CD34284F2461B" import="1">Art/Icons/TL_CivAtlas_128.dds</File>
+    <File md5="E76014CBB99B39B7A586351690B48709" import="1">Art/Icons/TL_CivAtlas_16.dds</File>
+    <File md5="83B3CDD2952878C3AA4AAE85E300FEFC" import="1">Art/Icons/TL_CivAtlas_24.dds</File>
+    <File md5="4E44FB2714B969C6B54BBF942DCA983D" import="1">Art/Icons/TL_CivAtlas_256.dds</File>
+    <File md5="C4ED9EA48D4A63FC7C4830809BB05909" import="1">Art/Icons/TL_CivAtlas_32.dds</File>
+    <File md5="3E8C33C06EB647815319A5D408763378" import="1">Art/Icons/TL_CivAtlas_45.dds</File>
+    <File md5="1059A07C2BB66494CA2187D69DF47F05" import="1">Art/Icons/TL_CivAtlas_48.dds</File>
+    <File md5="B00845CE61B328BA1B81D383572DE508" import="1">Art/Icons/TL_CivAtlas_64.dds</File>
+    <File md5="24A1499ACC906976DB518BEA5AF8AFEE" import="1">Art/Icons/TL_CivAtlas_80.dds</File>
+    <File md5="9D3F8095AF3741625E76BBDBFA14EC11" import="1">Art/Icons/TL_LeaderAtlas_128.dds</File>
+    <File md5="39922E642464F39CA198C3758F1087F4" import="1">Art/Icons/TL_LeaderAtlas_256.dds</File>
+    <File md5="8DEDBA4240A585FF7FDB5402860D3335" import="1">Art/Icons/TL_LeaderAtlas_32.dds</File>
+    <File md5="024D15F3AE1D881E64A650DEC178689A" import="1">Art/Icons/TL_LeaderAtlas_45.dds</File>
+    <File md5="DE3FEB272597E0D6E9535B496F2E432C" import="1">Art/Icons/TL_LeaderAtlas_64.dds</File>
+    <File md5="90762A3FCBB88E626FC3DEA23873EFB8" import="1">Art/Icons/TL_LeaderAtlas_80.dds</File>
+    <File md5="083798DD2B4731D95F4F0D147BED406B" import="1">Art/Leaders/TL_Ataturk_DOM.dds</File>
+    <File md5="9E95A1B1EECA093BA97D23E691DF0032" import="1">Art/Leaders/TL_Ataturk_Diplo.dds</File>
+    <File md5="139A382CD43FFF7757344E9B73293ADF" import="1">Art/Leaders/TL_Ataturk_Scene.xml</File>
+    <File md5="939D42A05E80D64493C472B6E7B89B31" import="1">Art/Leaders/TL_Battal_DOM.dds</File>
+    <File md5="510A9D15971C4FCA3D52192ABA700624" import="1">Art/Leaders/TL_Battal_Diplo.dds</File>
+    <File md5="327BEECBE982E34B224C0F13B567BDE8" import="1">Art/Leaders/TL_Battal_Scene.xml</File>
+    <File md5="7CFA644D09E86CCAF79EA78D8F71B849" import="1">Art/Leaders/TL_Fatih_DOM.dds</File>
+    <File md5="F5A5FCDDDB35DCD87578C171B5188953" import="1">Art/Leaders/TL_Fatih_Diplo.dds</File>
+    <File md5="963A004D95EA990F3C64D6665234B155" import="1">Art/Leaders/TL_Fatih_Scene.xml</File>
+    <File md5="35158E3F1103AB6B8F0862D61234EBD0" import="1">Art/Leaders/TL_Orhan_DOM.dds</File>
+    <File md5="B2CA1B6CC18C90D2FEB2528C19593DEF" import="1">Art/Leaders/TL_Orhan_Diplo.dds</File>
+    <File md5="04296ECEECEDE43849621F44B9FA462A" import="1">Art/Leaders/TL_Orhan_Scene.xml</File>
+    <File md5="314A31BAFF149E89B02A16D38A9B0345" import="1">Art/Leaders/TL_Osman_DOM.dds</File>
+    <File md5="03BA79FD05D53676A70E1EC5239650EE" import="1">Art/Leaders/TL_Osman_Diplo.dds</File>
+    <File md5="7E7A6BA1DCBBFC7F70749F32B74E09D1" import="1">Art/Leaders/TL_Osman_Scene.xml</File>
+    <File md5="DBB89EA324E07C21618C8A6968403C5F" import="1">Art/Leaders/TL_Yavuz_DOM.dds</File>
+    <File md5="D5330C015A7FDAF536284231699AB77F" import="1">Art/Leaders/TL_Yavuz_Diplo.dds</File>
+    <File md5="7D60C28B2579512FFD5D513AF5DFE34D" import="1">Art/Leaders/TL_Yavuz_Scene.xml</File>
+    <File md5="3F4073F959BDABEE99A4E81B8E77BDD0" import="0">Core/TL_Art.sql</File>
+    <File md5="0F76466DA49DFA76261497491EA08C61" import="0">Core/TL_Buildings.sql</File>
+    <File md5="BDE52A245ECDF6F4FC3578E0B45CC311" import="0">Core/TL_Civilizations.sql</File>
+    <File md5="811F514621422C89345739B7C8738CD5" import="0">Core/TL_Colors.sql</File>
+    <File md5="F27BA9DE2DC2BA29368F178607943A15" import="0">Core/TL_Names.sql</File>
+    <File md5="7B357F6F5FB94B5E8BEF87A8B1AE5F75" import="0">Core/TL_Units.sql</File>
+    <File md5="154742DECEBAE2EE3B2C29C5C576C28F" import="0">Lua/TL_Traits.lua</File>
+    <File md5="6245B35D8B74402D7753FE8448964687" import="0">Maps/TL_EMEA.lua</File>
+    <File md5="C77C854AEC178651BC8E5D3A5ADF071A" import="0">Text/TL_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/TL_Colors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Art.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Names.sql</UpdateDatabase>
+      <UpdateDatabase>Text/TL_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/TL_Traits.lua">
+      <Name>TL_Traits</Name>
+      <Description>Türk liderlerinin Lua ile çalışan yetenekleri</Description>
+    </EntryPoint>
+    <EntryPoint type="MapScript" file="Maps/TL_EMEA.lua">
+      <Name>TXT_KEY_TL_MAP_EMEA</Name>
+      <Description>TXT_KEY_TL_MAP_EMEA_HELP</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
