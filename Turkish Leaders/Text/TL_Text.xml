@@ -3,22 +3,22 @@
 <GameData>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_ATATURK">
-			<Text>Cumhuriyet İnkılapları</Text>
+			<Text>Cumhuriyet Inkilaplari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_ATATURK_HELP">
-			<Text>Atatürk'ün yeteneği: [ICON_RESEARCH] Bilim ve [ICON_CULTURE] Kültür +%10.</Text>
+			<Text>Atatürk'ün yetenegi: [ICON_RESEARCH] Bilim ve [ICON_CULTURE] Kültür +%10.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_ORHAN">
-			<Text>İlk Düzenli Ordu</Text>
+			<Text>Ilk Düzenli Ordu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_ORHAN_HELP">
-			<Text>Orhan Gazi'nin yeteneği: yakın dövüş ve barutlu birimlere üretim ve deneyim bonusu.</Text>
+			<Text>Orhan Gazi'nin yetenegi: yakin dövüs ve barutlu birimlere üretim ve deneyim bonusu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_OSMAN">
-			<Text>Kuruluş Rüyası</Text>
+			<Text>Kurulus Rüyasi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_DUMMY_OSMAN_HELP">
-			<Text>Osman Bey'in yeteneği: +1 [ICON_FOOD] Gıda.</Text>
+			<Text>Osman Bey'in yetenegi: +1 [ICON_FOOD] Gida.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_HALKEVI">
 			<Text>Halkevi</Text>
@@ -27,34 +27,34 @@
 			<Text>Halk Okulu yerine geçer. Fazladan +2 [ICON_CULTURE] Kültür üretir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_HALKEVI_PEDIA">
-			<Text>Halkevleri, 1932'de Atatürk'ün desteğiyle kuruldu. Dil ve edebiyattan güzel sanatlara, spordan halk eğitimine kadar pek çok alanda çalışarak Cumhuriyet'in kültür hamlesinin taşıyıcısı oldu.</Text>
+			<Text>Halkevleri, 1932'de Atatürk'ün destegiyle kuruldu. Dil ve edebiyattan güzel sanatlara, spordan halk egitimine kadar pek çok alanda çalisarak Cumhuriyet'in kültür hamlesinin tasiyicisi oldu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_HALKEVI_STRATEGY">
-			<Text>Halkevleri bilim ve kültürü birlikte artırır. Atatürk'ün inkılap yeteneğiyle birlikte güçlü bir kültür zaferine katkı sağlar.</Text>
+			<Text>Halkevleri bilim ve kültürü birlikte artirir. Atatürk'ün inkilap yetenegiyle birlikte güçlü bir kültür zaferine katki saglar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KAPALICARSI">
-			<Text>Kapalıçarşı</Text>
+			<Text>Kapaliçarsi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KAPALICARSI_HELP">
-			<Text>Pazar yerine geçer. Fazladan +2 [ICON_GOLD] Altın ve +1 [ICON_HAPPINESS_1] Mutluluk sağlar.</Text>
+			<Text>Pazar yerine geçer. Fazladan +2 [ICON_GOLD] Altin ve +1 [ICON_HAPPINESS_1] Mutluluk saglar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KAPALICARSI_PEDIA">
-			<Text>Kapalıçarşı'nın çekirdeği olan Cevahir Bedesteni, Fatih Sultan Mehmet tarafından 1455-1461 yılları arasında yaptırıldı. Zamanla çevresine eklenen çarşılarla dünyanın en büyük ve en eski kapalı çarşılarından biri ortaya çıktı.</Text>
+			<Text>Kapaliçarsi'nin çekirdegi olan Cevahir Bedesteni, Fatih Sultan Mehmet tarafindan 1455-1461 yillari arasinda yaptirildi. Zamanla çevresine eklenen çarsilarla dünyanin en büyük ve en eski kapali çarsilarindan biri ortaya çikti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KAPALICARSI_STRATEGY">
-			<Text>Kapalıçarşı hem hazineyi hem de halkın mutluluğunu destekler; büyük fetih orduları için gereken altını sağlar.</Text>
+			<Text>Kapaliçarsi hem hazineyi hem de halkin mutlulugunu destekler; büyük fetih ordulari için gereken altini saglar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KULLIYE">
 			<Text>Külliye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KULLIYE_HELP">
-			<Text>Mabet (Temple) yerine geçer. Fazladan +1 [ICON_CULTURE] Kültür ve +1 [ICON_FOOD] Gıda üretir.</Text>
+			<Text>Mabet (Temple) yerine geçer. Fazladan +1 [ICON_CULTURE] Kültür ve +1 [ICON_FOOD] Gida üretir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KULLIYE_PEDIA">
-			<Text>Külliye; cami, medrese, imaret, darüşşifa, hamam ve çeşme gibi yapılardan oluşan bir yapı topluluğudur. Osmanlı şehirlerinde külliyeler, mahallelerin dinî, sosyal ve ekonomik merkeziydi.</Text>
+			<Text>Külliye; cami, medrese, imaret, darüssifa, hamam ve çesme gibi yapilardan olusan bir yapi toplulugudur. Osmanli sehirlerinde külliyeler, mahallelerin dinî, sosyal ve ekonomik merkeziydi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_KULLIYE_STRATEGY">
-			<Text>Külliyeler, fethedilen şehirleri hızla toparlamak için idealdir; inanç, kültür ve gıdayı bir arada sağlar.</Text>
+			<Text>Külliyeler, fethedilen sehirleri hizla toparlamak için idealdir; inanç, kültür ve gidayi bir arada saglar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_MEDRESE">
 			<Text>Medrese</Text>
@@ -63,166 +63,166 @@
 			<Text>Kütüphane yerine geçer. Fazladan +1 [ICON_RESEARCH] Bilim ve +1 [ICON_CULTURE] Kültür üretir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_MEDRESE_PEDIA">
-			<Text>İlk Osmanlı medresesi, Orhan Gazi tarafından 1331'de İznik'te kuruldu ve ilk müderrisi Davud-i Kayserî oldu. Medreseler; din bilimlerinin yanı sıra matematik, astronomi ve tıp öğretilen kurumlardı.</Text>
+			<Text>Ilk Osmanli medresesi, Orhan Gazi tarafindan 1331'de Iznik'te kuruldu ve ilk müderrisi Davud-i Kayserî oldu. Medreseler; din bilimlerinin yani sira matematik, astronomi ve tip ögretilen kurumlardi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_MEDRESE_STRATEGY">
-			<Text>Medreseler bilim ile kültürü bir arada sağlar. Orhan Gazi'nin genişleyen şehirlerinde erkenden inşa edin.</Text>
+			<Text>Medreseler bilim ile kültürü bir arada saglar. Orhan Gazi'nin genisleyen sehirlerinde erkenden insa edin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_RIBAT">
 			<Text>Ribat</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_RIBAT_HELP">
-			<Text>Sur yerine geçer. Şehre daha fazla savunma ve can puanı verir; burada eğitilen birimler +15 deneyim kazanır.</Text>
+			<Text>Sur yerine geçer. Sehre daha fazla savunma ve can puani verir; burada egitilen birimler +15 deneyim kazanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_RIBAT_PEDIA">
-			<Text>Ribatlar, İslam dünyasında sınır boylarında inşa edilen, hem kale hem de gönüllü savaşçıların barınağı olarak kullanılan yapılardı. Anadolu uçlarında da gazilerin üssü olarak hizmet ettiler.</Text>
+			<Text>Ribatlar, Islam dünyasinda sinir boylarinda insa edilen, hem kale hem de gönüllü savasçilarin barinagi olarak kullanilan yapilardi. Anadolu uçlarinda da gazilerin üssü olarak hizmet ettiler.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_RIBAT_STRATEGY">
-			<Text>Ribatlar sınır şehirlerinizi düşman akınlarına karşı korur ve deneyimli askerler yetiştirir.</Text>
+			<Text>Ribatlar sinir sehirlerinizi düsman akinlarina karsi korur ve deneyimli askerler yetistirir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_ZAVIYE">
 			<Text>Zaviye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_ZAVIYE_HELP">
-			<Text>Tapınak (Shrine) yerine geçer. Fazladan +1 [ICON_FOOD] Gıda üretir.</Text>
+			<Text>Tapinak (Shrine) yerine geçer. Fazladan +1 [ICON_FOOD] Gida üretir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_ZAVIYE_PEDIA">
-			<Text>Zaviyeler, Osmanlı'nın kuruluş döneminde dervişlerin yolculara yemek ve barınak sağladığı küçük tekkelerdi. Fethedilen bölgelerin şenlendirilmesinde ve yerleşime açılmasında önemli rol oynadılar.</Text>
+			<Text>Zaviyeler, Osmanli'nin kurulus döneminde dervislerin yolculara yemek ve barinak sagladigi küçük tekkelerdi. Fethedilen bölgelerin senlendirilmesinde ve yerlesime açilmasinda önemli rol oynadilar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TL_ZAVIYE_STRATEGY">
-			<Text>Zaviyeler, erken dönemde hem inanç hem de büyüme sağlar. Yeni kurulan şehirlerde ilk yapılacak binalardan biri olmalıdır.</Text>
+			<Text>Zaviyeler, erken dönemde hem inanç hem de büyüme saglar. Yeni kurulan sehirlerde ilk yapilacak binalardan biri olmalidir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_ATATURK_TEXT">
-			<Text>Selam sana, Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu! Çanakkale'de Conkbayırı'nda askerlerine "Ben size taarruzu emretmiyorum, ölmeyi emrediyorum!" diyerek cepheyi tuttun. 19 Mayıs 1919'da Samsun'a çıkıp milletini Kurtuluş Savaşı'na yönelttin; Sakarya'da ve Büyük Taarruz'da işgalcileri yurttan çıkardın. 29 Ekim 1923'te Cumhuriyeti ilan ettin; harften hukuka, eğitimden kadın haklarına kadar köklü inkılaplar yaptın.[NEWLINE][NEWLINE]Ey Atatürk, "Hayatta en hakiki mürşit ilimdir." Milletini muasır medeniyetler seviyesinin üstüne çıkarabilecek misin? Yurtta sulh, cihanda sulh!</Text>
+			<Text>Selam sana, Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu! Çanakkale'de Conkbayiri'nda askerlerine "Ben size taarruzu emretmiyorum, ölmeyi emrediyorum!" diyerek cepheyi tuttun. 19 Mayis 1919'da Samsun'a çikip milletini Kurtulus Savasi'na yönelttin; Sakarya'da ve Büyük Taarruz'da isgalcileri yurttan çikardin. 29 Ekim 1923'te Cumhuriyeti ilan ettin; harften hukuka, egitimden kadin haklarina kadar köklü inkilaplar yaptin.[NEWLINE][NEWLINE]Ey Atatürk, "Hayatta en hakiki mürsit ilimdir." Milletini muasir medeniyetler seviyesinin üstüne çikarabilecek misin? Yurtta sulh, cihanda sulh!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_BATTAL_TEXT">
-			<Text>Selam sana, Seyyid Battal Gazi, uçların aslanı ve destanların kahramanı! Malatya'dan çıkıp Bizans sınırlarında akınlar yaptın. Adın dilden dile, kopuzdan kopuza dolaştı. Battalnâme'de anlatılan yiğitliklerin, yüzyıllar boyunca Anadolu'nun gazilerine ve dervişlerine ilham verdi. Bugün Seyitgazi'deki türben hâlâ ziyaretçilerle dolup taşıyor.[NEWLINE][NEWLINE]Ey Gazi, at kişniyor, sınır boyları seni çağırıyor. Uçlardan bir devlet doğurup adını ebedî kılabilecek misin?</Text>
+			<Text>Selam sana, Seyyid Battal Gazi, uçlarin aslani ve destanlarin kahramani! Malatya'dan çikip Bizans sinirlarinda akinlar yaptin. Adin dilden dile, kopuzdan kopuza dolasti. Battalnâme'de anlatilan yigitliklerin, yüzyillar boyunca Anadolu'nun gazilerine ve dervislerine ilham verdi. Bugün Seyitgazi'deki türben hâlâ ziyaretçilerle dolup tasiyor.[NEWLINE][NEWLINE]Ey Gazi, at kisniyor, sinir boylari seni çagiriyor. Uçlardan bir devlet dogurup adini ebedî kilabilecek misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_FATIH_TEXT">
-			<Text>Selam sana, Sultan II. Mehmet, Kayser-i Rûm ve iki denizin hakanı! Henüz yirmi bir yaşındayken, asırlardır fethedilemeyen Konstantinopolis'in surlarını dev toplarınla dövdün. Gemilerini karadan yürütüp Haliç'e indirdin ve 29 Mayıs 1453'te şehri fethederek bir çağı kapatıp yenisini açtın. Sırbistan'ı, Mora'yı, Bosna'yı ve Kırım'ı egemenliğine kattın; Ali Kuşçu gibi âlimleri sarayında ağırladın.[NEWLINE][NEWLINE]Ey Fatih, dünya yeni bir fetih bekliyor. Bilimin ve topun gücüyle Kızıl Elma'ya ulaşabilecek misin?</Text>
+			<Text>Selam sana, Sultan II. Mehmet, Kayser-i Rûm ve iki denizin hakani! Henüz yirmi bir yasindayken, asirlardir fethedilemeyen Konstantinopolis'in surlarini dev toplarinla dövdün. Gemilerini karadan yürütüp Haliç'e indirdin ve 29 Mayis 1453'te sehri fethederek bir çagi kapatip yenisini açtin. Sirbistan'i, Mora'yi, Bosna'yi ve Kirim'i egemenligine kattin; Ali Kusçu gibi âlimleri sarayinda agirladin.[NEWLINE][NEWLINE]Ey Fatih, dünya yeni bir fetih bekliyor. Bilimin ve topun gücüyle Kizil Elma'ya ulasabilecek misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_ORHAN_TEXT">
-			<Text>Selam sana, Orhan Gazi, Osman Bey'in oğlu! Babanın yaktığı ocağı bir beylikten devlete dönüştürdün. Bursa'yı alıp başkent yaptın, İznik'i ve İzmit'i fethettin. İlk Osmanlı akçesini bastırdın, İznik'te ilk medreseyi açtın ve yaya ile müsellemlerden oluşan ilk düzenli orduyu kurdun. Oğlun Süleyman Paşa ile Çanakkale'yi geçerek Rumeli'ye ilk adımı attın.[NEWLINE][NEWLINE]Orhan Gazi, halkın düzen, askerin disiplin bekliyor. Kanunla, ilimle ve kılıçla iki kıtaya uzanan bir devlet kurabilecek misin?</Text>
+			<Text>Selam sana, Orhan Gazi, Osman Bey'in oglu! Babanin yaktigi ocagi bir beylikten devlete dönüstürdün. Bursa'yi alip baskent yaptin, Iznik'i ve Izmit'i fethettin. Ilk Osmanli akçesini bastirdin, Iznik'te ilk medreseyi açtin ve yaya ile müsellemlerden olusan ilk düzenli orduyu kurdun. Oglun Süleyman Pasa ile Çanakkale'yi geçerek Rumeli'ye ilk adimi attin.[NEWLINE][NEWLINE]Orhan Gazi, halkin düzen, askerin disiplin bekliyor. Kanunla, ilimle ve kiliçla iki kitaya uzanan bir devlet kurabilecek misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_OSMAN_TEXT">
-			<Text>Selam sana, Osman Bey, Ertuğrul Gazi'nin oğlu ve Kayı boyunun yiğit önderi! Bizans ile Selçuklu arasındaki o çalkantılı uç bölgesinde, Söğüt'ün yeşil vadilerinde büyüdün. Bir gece Şeyh Edebali'nin evinde uyurken rüyanda göğsünden bir ağaç çıktığını, dallarının dünyayı gölgelediğini gördün. Bu rüya senin ve soyunun kaderi oldu: küçük bir uç beyliği, kılıcın, adaletin ve sabrınla bir cihan devletinin temeline dönüştü.[NEWLINE][NEWLINE]Osman Bey, obanı yeniden toplamanın vakti geldi. Atlıların hazır, otlakların geniş. Toprağı adaletle yönetecek ve rüyadaki o ağacı göğe yükseltecek bir devlet kurabilecek misin?</Text>
+			<Text>Selam sana, Osman Bey, Ertugrul Gazi'nin oglu ve Kayi boyunun yigit önderi! Bizans ile Selçuklu arasindaki o çalkantili uç bölgesinde, Sögüt'ün yesil vadilerinde büyüdün. Bir gece Seyh Edebali'nin evinde uyurken rüyanda gögsünden bir agaç çiktigini, dallarinin dünyayi gölgeledigini gördün. Bu rüya senin ve soyunun kaderi oldu: küçük bir uç beyligi, kilicin, adaletin ve sabrinla bir cihan devletinin temeline dönüstü.[NEWLINE][NEWLINE]Osman Bey, obani yeniden toplamanin vakti geldi. Atlilarin hazir, otlaklarin genis. Topragi adaletle yönetecek ve rüyadaki o agaci göge yükseltecek bir devlet kurabilecek misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_DAWN_TL_YAVUZ_TEXT">
-			<Text>Selam sana, Yavuz Sultan Selim, Hâdimü'l-Haremeyni'ş-Şerifeyn! Sekiz yıl gibi kısa bir saltanatta devletinin topraklarını neredeyse iki katına çıkardın. Çaldıran'da toplarınla ve tüfekli yeniçerilerinle Şah İsmail'in süvarilerini dağıttın. Mercidabık'ta ve Ridaniye'de Memlükleri yenerek Suriye'yi, Mısır'ı ve Hicaz'ı egemenliğine kattın; Kutsal Emanetler İstanbul'a geldi.[NEWLINE][NEWLINE]Ey Yavuz, gözün doğuyu ve güneyi görüyor. Halkın senden korku ve saygı bekliyor. İslam dünyasını tek sancak altında toplayabilecek misin?</Text>
+			<Text>Selam sana, Yavuz Sultan Selim, Hâdimü'l-Haremeyni's-Serifeyn! Sekiz yil gibi kisa bir saltanatta devletinin topraklarini neredeyse iki katina çikardin. Çaldiran'da toplarinla ve tüfekli yeniçerilerinle Sah Ismail'in süvarilerini dagittin. Mercidabik'ta ve Ridaniye'de Memlükleri yenerek Suriye'yi, Misir'i ve Hicaz'i egemenligine kattin; Kutsal Emanetler Istanbul'a geldi.[NEWLINE][NEWLINE]Ey Yavuz, gözün doguyu ve güneyi görüyor. Halkin senden korku ve saygi bekliyor. Islam dünyasini tek sancak altinda toplayabilecek misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_ATATURK_TEXT_1">
-			<Text>Türkiye Cumhuriyeti, Kurtuluş Savaşı'nın ardından 29 Ekim 1923'te Ankara'da ilan edildi. Laiklik, cumhuriyetçilik ve milliyetçilik gibi ilkeler doğrultusunda eğitimden hukuka, ekonomiden kültüre kadar geniş kapsamlı bir modernleşme süreci başlatıldı. Ankara, Cumhuriyet'in başkenti oldu.</Text>
+			<Text>Türkiye Cumhuriyeti, Kurtulus Savasi'nin ardindan 29 Ekim 1923'te Ankara'da ilan edildi. Laiklik, cumhuriyetçilik ve milliyetçilik gibi ilkeler dogrultusunda egitimden hukuka, ekonomiden kültüre kadar genis kapsamli bir modernlesme süreci baslatildi. Ankara, Cumhuriyet'in baskenti oldu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_BATTAL_TEXT_1">
-			<Text>Orta Çağ Anadolu'sunda 'uç' adı verilen sınır bölgeleri, gazilerin, akıncıların ve dervişlerin dünyasıydı. Bu bölgelerde yaşayanlar için Battal Gazi, Melik Danişmend ve Sarı Saltuk gibi destan kahramanları birer örnekti. Bu medeniyet, tek bir devleti değil, uç kültürünün bu kahramanlık geleneğini temsil eder.</Text>
+			<Text>Orta Çag Anadolu'sunda 'uç' adi verilen sinir bölgeleri, gazilerin, akincilarin ve dervislerin dünyasiydi. Bu bölgelerde yasayanlar için Battal Gazi, Melik Danismend ve Sari Saltuk gibi destan kahramanlari birer örnekti. Bu medeniyet, tek bir devleti degil, uç kültürünün bu kahramanlik gelenegini temsil eder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_FATIH_TEXT_1">
-			<Text>İstanbul'un fethiyle Osmanlı Devleti, Roma'nın mirasına sahip çıkan bir imparatorluğa dönüştü. İstanbul yeniden imar edildi; Anadolu'dan ve Balkanlar'dan getirilen halkla şehir kısa sürede dünyanın en kalabalık şehirlerinden biri oldu. Fatih döneminde kurulan merkezî teşkilat, imparatorluğun yüzyıllarca ayakta kalmasını sağladı.</Text>
+			<Text>Istanbul'un fethiyle Osmanli Devleti, Roma'nin mirasina sahip çikan bir imparatorluga dönüstü. Istanbul yeniden imar edildi; Anadolu'dan ve Balkanlar'dan getirilen halkla sehir kisa sürede dünyanin en kalabalik sehirlerinden biri oldu. Fatih döneminde kurulan merkezî teskilat, imparatorlugun yüzyillarca ayakta kalmasini sagladi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_ORHAN_TEXT_1">
-			<Text>Orhan Gazi döneminde Osmanlı Beyliği; Bursa, İznik ve İzmit gibi büyük Bizans şehirlerini alarak Marmara havzasına hâkim oldu. Karesi Beyliği'nin katılmasıyla deniz kıyısına ulaşan beylik, 1354'te Gelibolu'ya yerleşerek Avrupa'ya geçti. İlk sikke, ilk medrese ve ilk düzenli ordu bu döneme aittir.</Text>
+			<Text>Orhan Gazi döneminde Osmanli Beyligi; Bursa, Iznik ve Izmit gibi büyük Bizans sehirlerini alarak Marmara havzasina hâkim oldu. Karesi Beyligi'nin katilmasiyla deniz kiyisina ulasan beylik, 1354'te Gelibolu'ya yerleserek Avrupa'ya geçti. Ilk sikke, ilk medrese ve ilk düzenli ordu bu döneme aittir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_OSMAN_TEXT_1">
-			<Text>Kayılar, Oğuz Kağan'ın torunlarından sayılan 24 Oğuz boyundan biridir. Moğol istilası sırasında Anadolu'ya gelen bir Kayı obası, Selçuklu sultanı tarafından Bizans sınırındaki Söğüt ve Domaniç çevresine yerleştirildi. Ertuğrul Gazi ve oğlu Osman Bey önderliğinde bu oba, kısa sürede bölgenin en dinamik uç beyliğine dönüştü.</Text>
+			<Text>Kayilar, Oguz Kagan'in torunlarindan sayilan 24 Oguz boyundan biridir. Mogol istilasi sirasinda Anadolu'ya gelen bir Kayi obasi, Selçuklu sultani tarafindan Bizans sinirindaki Sögüt ve Domaniç çevresine yerlestirildi. Ertugrul Gazi ve oglu Osman Bey önderliginde bu oba, kisa sürede bölgenin en dinamik uç beyligine dönüstü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_TL_YAVUZ_TEXT_1">
-			<Text>Yavuz Sultan Selim'in seferleriyle Osmanlı Devleti, Mısır'dan Hicaz'a uzanan geniş toprakları egemenliğine aldı. Kahire'den İstanbul'a getirilen Kutsal Emanetler ve Mekke ile Medine'nin koruyuculuğu, Osmanlı padişahlarına İslam dünyasında eşsiz bir manevi otorite kazandırdı.</Text>
+			<Text>Yavuz Sultan Selim'in seferleriyle Osmanli Devleti, Misir'dan Hicaz'a uzanan genis topraklari egemenligine aldi. Kahire'den Istanbul'a getirilen Kutsal Emanetler ve Mekke ile Medine'nin koruyuculugu, Osmanli padisahlarina Islam dünyasinda essiz bir manevi otorite kazandirdi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_AKINCI_TEXT">
-			<Text>Akıncılar, Osmanlı'nın erken döneminden itibaren düşman topraklarına hızlı baskınlar yapan hafif süvarilerdi. Ücret yerine ganimet payı alırlar, düşmanın direncini kırmak ve keşif yapmak için kullanılırlardı.</Text>
+			<Text>Akincilar, Osmanli'nin erken döneminden itibaren düsman topraklarina hizli baskinlar yapan hafif süvarilerdi. Ücret yerine ganimet payi alirlar, düsmanin direncini kirmak ve kesif yapmak için kullanilirlardi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_GAZI_TEXT">
-			<Text>Gazi unvanı, Orta Çağ Anadolu'sunda sınır boylarında savaşan savaşçılara verilirdi. Gaziler; ahi ve derviş gelenekleriyle iç içe, uç beyliklerinin askerî omurgasını oluşturuyordu.</Text>
+			<Text>Gazi unvani, Orta Çag Anadolu'sunda sinir boylarinda savasan savasçilara verilirdi. Gaziler; ahi ve dervis gelenekleriyle iç içe, uç beyliklerinin askerî omurgasini olusturuyordu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_MEHMETCIK_TEXT">
-			<Text>Mehmetçik, Türk askerine halk arasında verilen sevgi dolu addır. Çanakkale Cephesi'nde ve Kurtuluş Savaşı'nda gösterdikleri fedakârlık, Türk tarihinin unutulmaz destanları arasında yer alır.</Text>
+			<Text>Mehmetçik, Türk askerine halk arasinda verilen sevgi dolu addir. Çanakkale Cephesi'nde ve Kurtulus Savasi'nda gösterdikleri fedakârlik, Türk tarihinin unutulmaz destanlari arasinda yer alir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_SAHI_TOPU_TEXT">
-			<Text>1453 kuşatmasında kullanılan dev toplar, döneminin en büyük ateşli silahlarıydı. Kaynaklara göre bu toplardan bazıları yüzlerce kilogramlık taş gülleler atabiliyordu. Bu topların Theodosius surlarında açtığı gedikler, fethin en önemli etkenlerinden biri oldu.</Text>
+			<Text>1453 kusatmasinda kullanilan dev toplar, döneminin en büyük atesli silahlariydi. Kaynaklara göre bu toplardan bazilari yüzlerce kilogramlik tas gülleler atabiliyordu. Bu toplarin Theodosius surlarinda açtigi gedikler, fethin en önemli etkenlerinden biri oldu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_TUFEKENDAZ_TEXT">
-			<Text>Tüfekendaz, Osmanlı ordusunda tüfek kullanan piyadeye verilen addır. 1514 Çaldıran Savaşı'nda yeniçerilerin tüfekleri ve sahra topları, Safevi süvarilerine karşı zaferin kazanılmasında belirleyici oldu.</Text>
+			<Text>Tüfekendaz, Osmanli ordusunda tüfek kullanan piyadeye verilen addir. 1514 Çaldiran Savasi'nda yeniçerilerin tüfekleri ve sahra toplari, Safevi süvarilerine karsi zaferin kazanilmasinda belirleyici oldu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_TL_YAYA_TEXT">
-			<Text>Orhan Gazi döneminde kurulan yayalar, Osmanlı'nın ilk düzenli piyade birlikleriydi. Savaş zamanında maaş alır, barışta kendilerine verilen toprakları işlerlerdi.</Text>
+			<Text>Orhan Gazi döneminde kurulan yayalar, Osmanli'nin ilk düzenli piyade birlikleriydi. Savas zamaninda maas alir, barista kendilerine verilen topraklari islerlerdi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ATATURK_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ATATURK_FACTOID_TEXT">
-			<Text>Türkiye'de 23 Nisan, Atatürk tarafından çocuklara armağan edilen bir bayram olarak kutlanır.</Text>
+			<Text>Türkiye'de 23 Nisan, Atatürk tarafindan çocuklara armagan edilen bir bayram olarak kutlanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ATATURK_HEADING_1">
 			<Text>Türkiye Cumhuriyeti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ATATURK_TEXT_1">
-			<Text>Türkiye Cumhuriyeti, Kurtuluş Savaşı'nın ardından 29 Ekim 1923'te Ankara'da ilan edildi. Laiklik, cumhuriyetçilik ve milliyetçilik gibi ilkeler doğrultusunda eğitimden hukuka, ekonomiden kültüre kadar geniş kapsamlı bir modernleşme süreci başlatıldı. Ankara, Cumhuriyet'in başkenti oldu.</Text>
+			<Text>Türkiye Cumhuriyeti, Kurtulus Savasi'nin ardindan 29 Ekim 1923'te Ankara'da ilan edildi. Laiklik, cumhuriyetçilik ve milliyetçilik gibi ilkeler dogrultusunda egitimden hukuka, ekonomiden kültüre kadar genis kapsamli bir modernlesme süreci baslatildi. Ankara, Cumhuriyet'in baskenti oldu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_BATTAL_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_BATTAL_FACTOID_TEXT">
-			<Text>Battal Gazi'nin adı Eskişehir'in Seyitgazi ilçesinde yaşamaya devam eder.</Text>
+			<Text>Battal Gazi'nin adi Eskisehir'in Seyitgazi ilçesinde yasamaya devam eder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_BATTAL_HEADING_1">
-			<Text>Uçların Ruhu</Text>
+			<Text>Uçlarin Ruhu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_BATTAL_TEXT_1">
-			<Text>Orta Çağ Anadolu'sunda 'uç' adı verilen sınır bölgeleri, gazilerin, akıncıların ve dervişlerin dünyasıydı. Bu bölgelerde yaşayanlar için Battal Gazi, Melik Danişmend ve Sarı Saltuk gibi destan kahramanları birer örnekti. Bu medeniyet, tek bir devleti değil, uç kültürünün bu kahramanlık geleneğini temsil eder.</Text>
+			<Text>Orta Çag Anadolu'sunda 'uç' adi verilen sinir bölgeleri, gazilerin, akincilarin ve dervislerin dünyasiydi. Bu bölgelerde yasayanlar için Battal Gazi, Melik Danismend ve Sari Saltuk gibi destan kahramanlari birer örnekti. Bu medeniyet, tek bir devleti degil, uç kültürünün bu kahramanlik gelenegini temsil eder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_FATIH_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_FATIH_FACTOID_TEXT">
-			<Text>Fatih, İstanbul'u fethettikten sonra kendisine Kayser-i Rûm (Roma Kayseri) unvanını da aldı.</Text>
+			<Text>Fatih, Istanbul'u fethettikten sonra kendisine Kayser-i Rûm (Roma Kayseri) unvanini da aldi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_FATIH_HEADING_1">
 			<Text>Cihan Devleti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_FATIH_TEXT_1">
-			<Text>İstanbul'un fethiyle Osmanlı Devleti, Roma'nın mirasına sahip çıkan bir imparatorluğa dönüştü. İstanbul yeniden imar edildi; Anadolu'dan ve Balkanlar'dan getirilen halkla şehir kısa sürede dünyanın en kalabalık şehirlerinden biri oldu. Fatih döneminde kurulan merkezî teşkilat, imparatorluğun yüzyıllarca ayakta kalmasını sağladı.</Text>
+			<Text>Istanbul'un fethiyle Osmanli Devleti, Roma'nin mirasina sahip çikan bir imparatorluga dönüstü. Istanbul yeniden imar edildi; Anadolu'dan ve Balkanlar'dan getirilen halkla sehir kisa sürede dünyanin en kalabalik sehirlerinden biri oldu. Fatih döneminde kurulan merkezî teskilat, imparatorlugun yüzyillarca ayakta kalmasini sagladi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ORHAN_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ORHAN_FACTOID_TEXT">
-			<Text>Bursa, Osmanlıların ilk büyük başkenti olarak bugün de Orhan Gazi Camii ve Külliyesi'ne ev sahipliği yapar.</Text>
+			<Text>Bursa, Osmanlilarin ilk büyük baskenti olarak bugün de Orhan Gazi Camii ve Külliyesi'ne ev sahipligi yapar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ORHAN_HEADING_1">
 			<Text>Beylikten Devlete</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_ORHAN_TEXT_1">
-			<Text>Orhan Gazi döneminde Osmanlı Beyliği; Bursa, İznik ve İzmit gibi büyük Bizans şehirlerini alarak Marmara havzasına hâkim oldu. Karesi Beyliği'nin katılmasıyla deniz kıyısına ulaşan beylik, 1354'te Gelibolu'ya yerleşerek Avrupa'ya geçti. İlk sikke, ilk medrese ve ilk düzenli ordu bu döneme aittir.</Text>
+			<Text>Orhan Gazi döneminde Osmanli Beyligi; Bursa, Iznik ve Izmit gibi büyük Bizans sehirlerini alarak Marmara havzasina hâkim oldu. Karesi Beyligi'nin katilmasiyla deniz kiyisina ulasan beylik, 1354'te Gelibolu'ya yerleserek Avrupa'ya geçti. Ilk sikke, ilk medrese ve ilk düzenli ordu bu döneme aittir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_OSMAN_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_OSMAN_FACTOID_TEXT">
-			<Text>Kayı boyunun damgası, Osmanlı hanedanının da sembollerinden biri olarak bugün hâlâ kullanılır.</Text>
+			<Text>Kayi boyunun damgasi, Osmanli hanedaninin da sembollerinden biri olarak bugün hâlâ kullanilir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_OSMAN_HEADING_1">
-			<Text>Kayı Boyu</Text>
+			<Text>Kayi Boyu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_OSMAN_TEXT_1">
-			<Text>Kayılar, Oğuz Kağan'ın torunlarından sayılan 24 Oğuz boyundan biridir. Moğol istilası sırasında Anadolu'ya gelen bir Kayı obası, Selçuklu sultanı tarafından Bizans sınırındaki Söğüt ve Domaniç çevresine yerleştirildi. Ertuğrul Gazi ve oğlu Osman Bey önderliğinde bu oba, kısa sürede bölgenin en dinamik uç beyliğine dönüştü.</Text>
+			<Text>Kayilar, Oguz Kagan'in torunlarindan sayilan 24 Oguz boyundan biridir. Mogol istilasi sirasinda Anadolu'ya gelen bir Kayi obasi, Selçuklu sultani tarafindan Bizans sinirindaki Sögüt ve Domaniç çevresine yerlestirildi. Ertugrul Gazi ve oglu Osman Bey önderliginde bu oba, kisa sürede bölgenin en dinamik uç beyligine dönüstü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_YAVUZ_FACTOID_HEADING">
 			<Text>Biliyor muydunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_YAVUZ_FACTOID_TEXT">
-			<Text>Yavuz Sultan Selim'in saltanatı yalnızca sekiz yıl sürmesine rağmen devletin toprakları yaklaşık iki katına çıktı.</Text>
+			<Text>Yavuz Sultan Selim'in saltanati yalnizca sekiz yil sürmesine ragmen devletin topraklari yaklasik iki katina çikti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_YAVUZ_HEADING_1">
-			<Text>Haremeyn'in Hizmetkârı</Text>
+			<Text>Haremeyn'in Hizmetkâri</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVS_TL_YAVUZ_TEXT_1">
-			<Text>Yavuz Sultan Selim'in seferleriyle Osmanlı Devleti, Mısır'dan Hicaz'a uzanan geniş toprakları egemenliğine aldı. Kahire'den İstanbul'a getirilen Kutsal Emanetler ve Mekke ile Medine'nin koruyuculuğu, Osmanlı padişahlarına İslam dünyasında eşsiz bir manevi otorite kazandırdı.</Text>
+			<Text>Yavuz Sultan Selim'in seferleriyle Osmanli Devleti, Misir'dan Hicaz'a uzanan genis topraklari egemenligine aldi. Kahire'den Istanbul'a getirilen Kutsal Emanetler ve Mekke ile Medine'nin koruyuculugu, Osmanli padisahlarina Islam dünyasinda essiz bir manevi otorite kazandirdi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_HEADING_1">
-			<Text>Çanakkale'den Kurtuluş Savaşı'na</Text>
+			<Text>Çanakkale'den Kurtulus Savasi'na</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_HEADING_2">
-			<Text>Cumhuriyet ve İnkılaplar</Text>
+			<Text>Cumhuriyet ve Inkilaplar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_LIVED">
 			<Text>1881 - 1938</Text>
@@ -231,13 +231,13 @@
 			<Text>Mustafa Kemal Atatürk</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_SUBTITLE">
-			<Text>Türkiye Cumhuriyeti'nin Kurucusu ve İlk Cumhurbaşkanı</Text>
+			<Text>Türkiye Cumhuriyeti'nin Kurucusu ve Ilk Cumhurbaskani</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_TEXT_1">
-			<Text>Mustafa Kemal 1881'de Selanik'te doğdu. Harbiye'yi kurmay yüzbaşı olarak bitirdi. 1915'te Çanakkale Cephesi'nde Arıburnu ve Anafartalar'da gösterdiği başarılarla öne çıktı. 19 Mayıs 1919'da Samsun'a çıkarak Milli Mücadele'yi başlattı. Erzurum ve Sivas kongrelerinin ardından 23 Nisan 1920'de Türkiye Büyük Millet Meclisi açıldı. Sakarya Meydan Muharebesi (1921) ve Büyük Taarruz (1922) ile Kurtuluş Savaşı kazanıldı; 1923'te Lozan Antlaşması imzalandı.</Text>
+			<Text>Mustafa Kemal 1881'de Selanik'te dogdu. Harbiye'yi kurmay yüzbasi olarak bitirdi. 1915'te Çanakkale Cephesi'nde Ariburnu ve Anafartalar'da gösterdigi basarilarla öne çikti. 19 Mayis 1919'da Samsun'a çikarak Milli Mücadele'yi baslatti. Erzurum ve Sivas kongrelerinin ardindan 23 Nisan 1920'de Türkiye Büyük Millet Meclisi açildi. Sakarya Meydan Muharebesi (1921) ve Büyük Taarruz (1922) ile Kurtulus Savasi kazanildi; 1923'te Lozan Antlasmasi imzalandi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ATATURK_TEXT_2">
-			<Text>29 Ekim 1923'te Cumhuriyet ilan edildi ve Mustafa Kemal ilk cumhurbaşkanı seçildi. Saltanat (1922) ve hilafet (1924) kaldırıldı; Tevhid-i Tedrisat Kanunu, Medeni Kanun (1926), Harf İnkılabı (1928) ve kadınlara seçme-seçilme hakkı (1930-1934) gibi köklü reformlar yapıldı. 1934'te TBMM kendisine Atatürk soyadını verdi. 10 Kasım 1938'de İstanbul'da, Dolmabahçe Sarayı'nda vefat etti.</Text>
+			<Text>29 Ekim 1923'te Cumhuriyet ilan edildi ve Mustafa Kemal ilk cumhurbaskani seçildi. Saltanat (1922) ve hilafet (1924) kaldirildi; Tevhid-i Tedrisat Kanunu, Medeni Kanun (1926), Harf Inkilabi (1928) ve kadinlara seçme-seçilme hakki (1930-1934) gibi köklü reformlar yapildi. 1934'te TBMM kendisine Atatürk soyadini verdi. 10 Kasim 1938'de Istanbul'da, Dolmabahçe Sarayi'nda vefat etti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_BATTAL_HEADING_1">
 			<Text>Tarihteki Battal</Text>
@@ -252,19 +252,19 @@
 			<Text>Seyyid Battal Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_BATTAL_SUBTITLE">
-			<Text>Anadolu Destanlarının Kahramanı</Text>
+			<Text>Anadolu Destanlarinin Kahramani</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_BATTAL_TEXT_1">
-			<Text>Battal Gazi'nin tarihî kişiliği, Emevîler döneminde Bizans'a karşı akınlar düzenleyen ve Malatya ile ilişkilendirilen komutan Abdullah el-Battal'a dayanır. Arap kaynaklarına göre el-Battal, 740 yılında Akroinon (bugünkü Afyonkarahisar yakınları) Savaşı'nda hayatını kaybetmiştir. Tarihî bilgiler sınırlıdır; bu nedenle bu modda Battal Gazi tarihî bir hükümdardan çok bir destan kahramanı olarak canlandırılmıştır.</Text>
+			<Text>Battal Gazi'nin tarihî kisiligi, Emevîler döneminde Bizans'a karsi akinlar düzenleyen ve Malatya ile iliskilendirilen komutan Abdullah el-Battal'a dayanir. Arap kaynaklarina göre el-Battal, 740 yilinda Akroinon (bugünkü Afyonkarahisar yakinlari) Savasi'nda hayatini kaybetmistir. Tarihî bilgiler sinirlidir; bu nedenle bu modda Battal Gazi tarihî bir hükümdardan çok bir destan kahramani olarak canlandirilmistir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_BATTAL_TEXT_2">
-			<Text>Anadolu'nun Türkleşme sürecinde Battal Gazi, Türk halk edebiyatının en sevilen kahramanlarından biri oldu. Battalnâme adlı destanda doğaüstü yiğitlikleriyle anlatıldı ve Danişmendnâme gibi sonraki gazavatnâmelere örnek teşkil etti. Eskişehir'in Seyitgazi ilçesindeki türbesi ve külliyesi, Selçuklu döneminden beri önemli bir ziyaret yeridir.</Text>
+			<Text>Anadolu'nun Türklesme sürecinde Battal Gazi, Türk halk edebiyatinin en sevilen kahramanlarindan biri oldu. Battalnâme adli destanda dogaüstü yigitlikleriyle anlatildi ve Danismendnâme gibi sonraki gazavatnâmelere örnek teskil etti. Eskisehir'in Seyitgazi ilçesindeki türbesi ve külliyesi, Selçuklu döneminden beri önemli bir ziyaret yeridir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_HEADING_1">
-			<Text>İstanbul'un Fethi</Text>
+			<Text>Istanbul'un Fethi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_HEADING_2">
-			<Text>Devlet Adamı ve Bilim Hamisi</Text>
+			<Text>Devlet Adami ve Bilim Hamisi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_LIVED">
 			<Text>1432 - 1481</Text>
@@ -273,19 +273,19 @@
 			<Text>Fatih Sultan Mehmet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_SUBTITLE">
-			<Text>İstanbul'un Fatihi, Osmanlı Padişahı</Text>
+			<Text>Istanbul'un Fatihi, Osmanli Padisahi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_TEXT_1">
-			<Text>II. Mehmet, 1451'de ikinci kez tahta çıktı. Boğaz'ın kontrolü için Rumeli Hisarı'nı yalnızca birkaç ayda inşa ettirdi. 6 Nisan 1453'te başlayan kuşatmada büyük toplar kullanıldı, gemiler karadan Haliç'e indirildi. Şehir 29 Mayıs 1453'te fethedildi ve Bizans İmparatorluğu sona erdi. Bu fetih, birçok tarihçi tarafından Orta Çağ'ın sonu olarak kabul edilir.</Text>
+			<Text>II. Mehmet, 1451'de ikinci kez tahta çikti. Bogaz'in kontrolü için Rumeli Hisari'ni yalnizca birkaç ayda insa ettirdi. 6 Nisan 1453'te baslayan kusatmada büyük toplar kullanildi, gemiler karadan Haliç'e indirildi. Sehir 29 Mayis 1453'te fethedildi ve Bizans Imparatorlugu sona erdi. Bu fetih, birçok tarihçi tarafindan Orta Çag'in sonu olarak kabul edilir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_FATIH_TEXT_2">
-			<Text>Fatih, Kanunname-i Âl-i Osman ile devlet teşkilatını düzenledi. Fatih Külliyesi'ni ve Sahn-ı Seman medreselerini kurdurdu, Kapalıçarşı'nın çekirdeği olan Cevahir Bedesteni'ni yaptırdı. Rumca, Arapça ve Farsça kaynaklarla ilgilendi; astronom Ali Kuşçu'yu İstanbul'a davet etti; İtalyan ressam Gentile Bellini onun portresini yaptı. 1481'de yeni bir sefere çıkarken Gebze yakınlarında vefat etti.</Text>
+			<Text>Fatih, Kanunname-i Âl-i Osman ile devlet teskilatini düzenledi. Fatih Külliyesi'ni ve Sahn-i Seman medreselerini kurdurdu, Kapaliçarsi'nin çekirdegi olan Cevahir Bedesteni'ni yaptirdi. Rumca, Arapça ve Farsça kaynaklarla ilgilendi; astronom Ali Kusçu'yu Istanbul'a davet etti; Italyan ressam Gentile Bellini onun portresini yapti. 1481'de yeni bir sefere çikarken Gebze yakinlarinda vefat etti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_HEADING_1">
 			<Text>Bursa'dan Rumeli'ye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_HEADING_2">
-			<Text>Devlet Teşkilatı</Text>
+			<Text>Devlet Teskilati</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_LIVED">
 			<Text>y. 1281 - 1362</Text>
@@ -294,19 +294,19 @@
 			<Text>Orhan Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_SUBTITLE">
-			<Text>Osmanlı Beyliği'nin İkinci Hükümdarı</Text>
+			<Text>Osmanli Beyligi'nin Ikinci Hükümdari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_TEXT_1">
-			<Text>Orhan Gazi 1326'da Bursa'yı fethederek beyliğin merkezi yaptı. 1329'da Palekanon (Maltepe) Savaşı'nda Bizans ordusunu yendi, 1331'de İznik'i, 1337'de İzmit'i aldı. Karesi Beyliği'ni topraklarına katarak donanma geleneğine sahip bir bölgeyi kazandı. 1352'de Çimpe Kalesi'ne, 1354'te Gelibolu'ya yerleşilmesiyle Osmanlılar Rumeli'ye geçti.</Text>
+			<Text>Orhan Gazi 1326'da Bursa'yi fethederek beyligin merkezi yapti. 1329'da Palekanon (Maltepe) Savasi'nda Bizans ordusunu yendi, 1331'de Iznik'i, 1337'de Izmit'i aldi. Karesi Beyligi'ni topraklarina katarak donanma gelenegine sahip bir bölgeyi kazandi. 1352'de Çimpe Kalesi'ne, 1354'te Gelibolu'ya yerlesilmesiyle Osmanlilar Rumeli'ye geçti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_ORHAN_TEXT_2">
-			<Text>Orhan Gazi döneminde ilk gümüş akçe basıldı, ilk Osmanlı medresesi 1331'de İznik'te açıldı ve aşiret kuvvetlerinin yanında yaya ve müsellem adı verilen ilk düzenli askerî birlikler oluşturuldu. Bu adımlar, beyliğin bir uç teşkilatından kurumsal bir devlete dönüşmesinin temelini attı.</Text>
+			<Text>Orhan Gazi döneminde ilk gümüs akçe basildi, ilk Osmanli medresesi 1331'de Iznik'te açildi ve asiret kuvvetlerinin yaninda yaya ve müsellem adi verilen ilk düzenli askerî birlikler olusturuldu. Bu adimlar, beyligin bir uç teskilatindan kurumsal bir devlete dönüsmesinin temelini atti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_HEADING_1">
-			<Text>Hayatı</Text>
+			<Text>Hayati</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_HEADING_2">
-			<Text>Şeyh Edebali ve Rüya</Text>
+			<Text>Seyh Edebali ve Rüya</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_LIVED">
 			<Text>y. 1258 - 1326</Text>
@@ -315,19 +315,19 @@
 			<Text>Osman Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_SUBTITLE">
-			<Text>Kayı Beyliği'nin ve Osmanlı Devleti'nin Kurucusu</Text>
+			<Text>Kayi Beyligi'nin ve Osmanli Devleti'nin Kurucusu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_TEXT_1">
-			<Text>Osman Bey, Oğuzların Kayı boyuna mensup Ertuğrul Gazi'nin oğludur. Babasının ölümünden sonra Söğüt ve Domaniç çevresindeki aşiretin başına geçti. Bizans tekfurlarıyla mücadele ederek Karacahisar, Bilecik, Yarhisar ve İnegöl gibi kaleleri ele geçirdi. Geleneksel olarak 1299 yılı, beyliğin bağımsızlığının başlangıcı kabul edilir.</Text>
+			<Text>Osman Bey, Oguzlarin Kayi boyuna mensup Ertugrul Gazi'nin ogludur. Babasinin ölümünden sonra Sögüt ve Domaniç çevresindeki asiretin basina geçti. Bizans tekfurlariyla mücadele ederek Karacahisar, Bilecik, Yarhisar ve Inegöl gibi kaleleri ele geçirdi. Geleneksel olarak 1299 yili, beyligin bagimsizliginin baslangici kabul edilir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_OSMAN_TEXT_2">
-			<Text>Osmanlı kroniklerine göre Osman Bey, Şeyh Edebali'nin evinde misafirken rüyasında şeyhin göğsünden çıkan bir ayın kendi göğsüne girdiğini, ardından göğsünden büyük bir ağaç yükselip dallarının dünyayı kapladığını gördü. Şeyh Edebali bu rüyayı Osman Bey'e ve soyuna verilecek bir hükümranlık müjdesi olarak yorumladı ve kızı Malhun (veya Rabia) Hatun'u onunla evlendirdi. Osman Bey, Bursa kuşatması sürerken 1326 civarında vefat etti; şehri oğlu Orhan fethetti.</Text>
+			<Text>Osmanli kroniklerine göre Osman Bey, Seyh Edebali'nin evinde misafirken rüyasinda seyhin gögsünden çikan bir ayin kendi gögsüne girdigini, ardindan gögsünden büyük bir agaç yükselip dallarinin dünyayi kapladigini gördü. Seyh Edebali bu rüyayi Osman Bey'e ve soyuna verilecek bir hükümranlik müjdesi olarak yorumladi ve kizi Malhun (veya Rabia) Hatun'u onunla evlendirdi. Osman Bey, Bursa kusatmasi sürerken 1326 civarinda vefat etti; sehri oglu Orhan fethetti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_HEADING_1">
-			<Text>Doğu ve Güney Seferleri</Text>
+			<Text>Dogu ve Güney Seferleri</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_HEADING_2">
-			<Text>Hilafet ve Mirası</Text>
+			<Text>Hilafet ve Mirasi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_LIVED">
 			<Text>1470 - 1520</Text>
@@ -336,13 +336,13 @@
 			<Text>Yavuz Sultan Selim</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_SUBTITLE">
-			<Text>Osmanlı Padişahı ve Halife</Text>
+			<Text>Osmanli Padisahi ve Halife</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_TEXT_1">
-			<Text>I. Selim, Trabzon sancakbeyliği yaptıktan sonra 1512'de tahta çıktı. 1514'te Çaldıran Savaşı'nda Safevi hükümdarı Şah İsmail'i yendi ve Tebriz'e girdi. 1516'da Mercidabık'ta, 1517'de Ridaniye'de Memlük ordularını bozguna uğrattı. Bu seferlerle Suriye, Filistin, Mısır ve Hicaz Osmanlı topraklarına katıldı.</Text>
+			<Text>I. Selim, Trabzon sancakbeyligi yaptiktan sonra 1512'de tahta çikti. 1514'te Çaldiran Savasi'nda Safevi hükümdari Sah Ismail'i yendi ve Tebriz'e girdi. 1516'da Mercidabik'ta, 1517'de Ridaniye'de Memlük ordularini bozguna ugratti. Bu seferlerle Suriye, Filistin, Misir ve Hicaz Osmanli topraklarina katildi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TL_YAVUZ_TEXT_2">
-			<Text>Mısır'ın fethiyle Mekke ve Medine'nin koruyuculuğu Osmanlılara geçti. Geleneksel anlatıya göre Abbasi halifesi III. Mütevekkil hilafeti Yavuz'a devretti; tarihçiler bu devrin biçimini tartışsa da halifelik unvanı sonraki yüzyıllarda Osmanlı padişahlarınca kullanıldı. Yavuz aynı zamanda Farsça şiirler yazan bir şairdi. 1520'de Çorlu yakınlarında, Sırtköy'de vefat etti.</Text>
+			<Text>Misir'in fethiyle Mekke ve Medine'nin koruyuculugu Osmanlilara geçti. Geleneksel anlatiya göre Abbasi halifesi III. Mütevekkil hilafeti Yavuz'a devretti; tarihçiler bu devrin biçimini tartissa da halifelik unvani sonraki yüzyillarda Osmanli padisahlarinca kullanildi. Yavuz ayni zamanda Farsça siirler yazan bir sairdi. 1520'de Çorlu yakinlarinda, Sirtköy'de vefat etti.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_ATATURK_ADJECTIVE">
 			<Text>Türk</Text>
@@ -363,64 +363,64 @@
 			<Text>Gaziler</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_FATIH_ADJECTIVE">
-			<Text>Osmanlı</Text>
+			<Text>Osmanli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_FATIH_DESC">
-			<Text>Osmanlı Devleti</Text>
+			<Text>Osmanli Devleti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_FATIH_SHORT_DESC">
-			<Text>Osmanlı Devleti</Text>
+			<Text>Osmanli Devleti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_ORHAN_ADJECTIVE">
-			<Text>Osmanlı</Text>
+			<Text>Osmanli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_ORHAN_DESC">
-			<Text>Osmanlı Beyliği</Text>
+			<Text>Osmanli Beyligi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_ORHAN_SHORT_DESC">
-			<Text>Osmanlı Beyliği</Text>
+			<Text>Osmanli Beyligi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_OSMAN_ADJECTIVE">
-			<Text>Kayı</Text>
+			<Text>Kayi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_OSMAN_DESC">
-			<Text>Kayı Beyliği</Text>
+			<Text>Kayi Beyligi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_OSMAN_SHORT_DESC">
-			<Text>Kayı</Text>
+			<Text>Kayi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_YAVUZ_ADJECTIVE">
-			<Text>Osmanlı</Text>
+			<Text>Osmanli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_YAVUZ_DESC">
-			<Text>Osmanlı Hilafeti</Text>
+			<Text>Osmanli Hilafeti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_TL_YAVUZ_SHORT_DESC">
-			<Text>Osmanlı Hilafeti</Text>
+			<Text>Osmanli Hilafeti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK">
 			<Text>Mustafa Kemal Atatürk</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_ATTACKED_HOSTILE_1">
-			<Text>Vatanımıza saldıranlar, Sakarya'yı ve Dumlupınar'ı hatırlasın.</Text>
+			<Text>Vatanimiza saldiranlar, Sakarya'yi ve Dumlupinar'i hatirlasin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_DEFEATED_1">
-			<Text>Beni yenmiş olabilirsiniz; ama Türk milletinin istiklal ve hürriyet aşkını asla yenemezsiniz.</Text>
+			<Text>Beni yenmis olabilirsiniz; ama Türk milletinin istiklal ve hürriyet askini asla yenemezsiniz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_DOW_GENERIC_1">
-			<Text>Milletimizin bağımsızlığına göz diktiniz. Hatlar yoktur, satıh vardır; o satıh bütün vatandır!</Text>
+			<Text>Milletimizin bagimsizligina göz diktiniz. Hatlar yoktur, satih vardir; o satih bütün vatandir!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_FIRSTGREETING_1">
-			<Text>Ben Mustafa Kemal, Türkiye Cumhuriyeti'nin Cumhurbaşkanı. Yurtta sulh, cihanda sulh ilkesine inanırım; barış içinde yaşamak istiyorsanız elimiz size uzanmıştır.</Text>
+			<Text>Ben Mustafa Kemal, Türkiye Cumhuriyeti'nin Cumhurbaskani. Yurtta sulh, cihanda sulh ilkesine inanirim; baris içinde yasamak istiyorsaniz elimiz size uzanmistir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_GREETING_HOSTILE_HELLO_1">
-			<Text>Buyurun. Ne konuşmak istiyorsunuz?</Text>
+			<Text>Buyurun. Ne konusmak istiyorsunuz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_GREETING_NEUTRAL_HELLO_1">
-			<Text>Hoş geldiniz. Sizi dinliyorum.</Text>
+			<Text>Hos geldiniz. Sizi dinliyorum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_GREETING_POLITE_HELLO_1">
-			<Text>Dostum, hoş geldiniz! Medeniyet yolunda birlikte yürümek bizi mutlu eder.</Text>
+			<Text>Dostum, hos geldiniz! Medeniyet yolunda birlikte yürümek bizi mutlu eder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_LETS_HEAR_IT_1">
 			<Text>Teklifinizi dinliyorum.</Text>
@@ -429,181 +429,181 @@
 			<Text>Mustafa Kemal Atatürk</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_REQUEST_1">
-			<Text>Dostluğumuz adına sizden bir ricam var.</Text>
+			<Text>Dostlugumuz adina sizden bir ricam var.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_WINWAR_1">
 			<Text>Bu zafer, milletin azim ve iradesinin bir eseridir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_WORK_AGAINST_SOMEONE_1">
-			<Text>Barışı tehdit eden bu güce karşı ortak hareket etmeliyiz.</Text>
+			<Text>Barisi tehdit eden bu güce karsi ortak hareket etmeliyiz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ATATURK_WORK_WITH_US_1">
-			<Text>Barış ve ilerleme için birlikte çalışmaya ne dersiniz?</Text>
+			<Text>Baris ve ilerleme için birlikte çalismaya ne dersiniz?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL">
 			<Text>Seyyid Battal Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_ATTACKED_HOSTILE_1">
-			<Text>Benimle savaşmak mı? Ozanlar senin yenilgini de anlatacak!</Text>
+			<Text>Benimle savasmak mi? Ozanlar senin yenilgini de anlatacak!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_DEFEATED_1">
-			<Text>Gazi düşer ama destanı düşmez. Adım, Seyitgazi'de yaşamaya devam edecek.</Text>
+			<Text>Gazi düser ama destani düsmez. Adim, Seyitgazi'de yasamaya devam edecek.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_DOW_GENERIC_1">
-			<Text>Atımı eğerledim, kılıcımı kuşandım. Akın zamanı!</Text>
+			<Text>Atimi egerledim, kilicimi kusandim. Akin zamani!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_FIRSTGREETING_1">
-			<Text>Ben Seyyid Battal Gazi, uçların gazisi! Adımı kopuzlardan duymuşsundur. Dost musun, yoksa yeni bir destanın kötü adamı mı?</Text>
+			<Text>Ben Seyyid Battal Gazi, uçlarin gazisi! Adimi kopuzlardan duymussundur. Dost musun, yoksa yeni bir destanin kötü adami mi?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_GREETING_HOSTILE_HELLO_1">
-			<Text>Hâlâ ayakta mısın? Ne istiyorsun?</Text>
+			<Text>Hâlâ ayakta misin? Ne istiyorsun?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_GREETING_NEUTRAL_HELLO_1">
 			<Text>Selam, yolcu. Uçlardan haber mi getirdin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_GREETING_POLITE_HELLO_1">
-			<Text>Hoş geldin, kardeşim! Ateşin başına geç; sana yeni bir destan anlatayım.</Text>
+			<Text>Hos geldin, kardesim! Atesin basina geç; sana yeni bir destan anlatayim.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_LETS_HEAR_IT_1">
-			<Text>Söyle bakalım, ne teklif ediyorsun?</Text>
+			<Text>Söyle bakalim, ne teklif ediyorsun?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_PEDIA">
 			<Text>Seyyid Battal Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_REQUEST_1">
-			<Text>Bir gazinin dostuna küçük bir ricası var.</Text>
+			<Text>Bir gazinin dostuna küçük bir ricasi var.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_WINWAR_1">
-			<Text>Bir destan daha yazıldı ve kahramanı yine benim!</Text>
+			<Text>Bir destan daha yazildi ve kahramani yine benim!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_WORK_AGAINST_SOMEONE_1">
-			<Text>Bu düşmana karşı benimle at sürer misin?</Text>
+			<Text>Bu düsmana karsi benimle at sürer misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_BATTAL_WORK_WITH_US_1">
-			<Text>Birlikte akına çıkalım; ganimet ikimize de yeter.</Text>
+			<Text>Birlikte akina çikalim; ganimet ikimize de yeter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH">
 			<Text>Fatih Sultan Mehmet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_ATTACKED_HOSTILE_1">
-			<Text>Demek surlarına güveniyorsun? Toplarımın sesini duyduğunda pişman olacaksın.</Text>
+			<Text>Demek surlarina güveniyorsun? Toplarimin sesini duydugunda pisman olacaksin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_DEFEATED_1">
-			<Text>Kızıl Elma'ya ulaşamadım... Ama İstanbul'u alan el, tarihin sayfalarında hep var olacak.</Text>
+			<Text>Kizil Elma'ya ulasamadim... Ama Istanbul'u alan el, tarihin sayfalarinda hep var olacak.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_DOW_GENERIC_1">
-			<Text>Ya ben İstanbul'u alırım, ya İstanbul beni! Şimdi sıra senin şehirlerinde.</Text>
+			<Text>Ya ben Istanbul'u alirim, ya Istanbul beni! Simdi sira senin sehirlerinde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_FIRSTGREETING_1">
-			<Text>Ben Sultan Mehmet, İstanbul'un Fatihi ve iki denizin hakanı. Ya şehirlerin fethedilir ya da bir dost olarak soframa oturursun.</Text>
+			<Text>Ben Sultan Mehmet, Istanbul'un Fatihi ve iki denizin hakani. Ya sehirlerin fethedilir ya da bir dost olarak soframa oturursun.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_GREETING_HOSTILE_HELLO_1">
-			<Text>Sabrımı sınama. Ne istiyorsun?</Text>
+			<Text>Sabrimi sinama. Ne istiyorsun?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_GREETING_NEUTRAL_HELLO_1">
 			<Text>Selam. Sözünü dinliyorum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_GREETING_POLITE_HELLO_1">
-			<Text>Hoş geldin. Sarayımda âlimler, şairler ve dostlar her zaman ağırlanır.</Text>
+			<Text>Hos geldin. Sarayimda âlimler, sairler ve dostlar her zaman agirlanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_LETS_HEAR_IT_1">
-			<Text>Söyle. Ama bil ki vaktim fetihlere ayrılmıştır.</Text>
+			<Text>Söyle. Ama bil ki vaktim fetihlere ayrilmistir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_PEDIA">
 			<Text>Fatih Sultan Mehmet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_REQUEST_1">
-			<Text>Bir hükümdardan diğerine küçük bir ricam var.</Text>
+			<Text>Bir hükümdardan digerine küçük bir ricam var.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_WINWAR_1">
 			<Text>Hiçbir sur, iradeli bir ordunun önünde sonsuza dek duramaz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_WORK_AGAINST_SOMEONE_1">
-			<Text>Bu hükümdarın surlarını birlikte yıkalım mı?</Text>
+			<Text>Bu hükümdarin surlarini birlikte yikalim mi?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_FATIH_WORK_WITH_US_1">
-			<Text>Benimle birlikte yürü; yeni bir çağ açalım.</Text>
+			<Text>Benimle birlikte yürü; yeni bir çag açalim.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN">
 			<Text>Orhan Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_ATTACKED_HOSTILE_1">
-			<Text>Barışı bozan sen oldun. Yayalarım ve müsellemlerim hazır.</Text>
+			<Text>Barisi bozan sen oldun. Yayalarim ve müsellemlerim hazir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_DEFEATED_1">
-			<Text>Bursa düştü... Babamın mirasını koruyamadım. Allah'ın takdiri böyleymiş.</Text>
+			<Text>Bursa düstü... Babamin mirasini koruyamadim. Allah'in takdiri böyleymis.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_DOW_GENERIC_1">
-			<Text>Düzenli ordumun gücünü sınamak istiyorsan, sahada görüşürüz!</Text>
+			<Text>Düzenli ordumun gücünü sinamak istiyorsan, sahada görüsürüz!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_FIRSTGREETING_1">
-			<Text>Selam olsun! Ben Orhan, Osman Bey'in oğlu ve Bursa'nın sahibi. Ticaret de yaparız, savaş da; hangisini seçeceğin sana kalmış.</Text>
+			<Text>Selam olsun! Ben Orhan, Osman Bey'in oglu ve Bursa'nin sahibi. Ticaret de yapariz, savas da; hangisini seçecegin sana kalmis.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_GREETING_HOSTILE_HELLO_1">
-			<Text>Hayırdır? Bu sefer ne yüzle geldin?</Text>
+			<Text>Hayirdir? Bu sefer ne yüzle geldin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_GREETING_NEUTRAL_HELLO_1">
-			<Text>Selam. İşlerin yolunda mı?</Text>
+			<Text>Selam. Islerin yolunda mi?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_GREETING_POLITE_HELLO_1">
-			<Text>Hoş geldin dostum! Bursa'nın ipekleri ve İznik'in çinileri senin için.</Text>
+			<Text>Hos geldin dostum! Bursa'nin ipekleri ve Iznik'in çinileri senin için.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_LETS_HEAR_IT_1">
-			<Text>Söyle bakalım, teklifin nedir?</Text>
+			<Text>Söyle bakalim, teklifin nedir?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_PEDIA">
 			<Text>Orhan Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_REQUEST_1">
-			<Text>Bir dost olarak senden bir isteğim var.</Text>
+			<Text>Bir dost olarak senden bir istegim var.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_WINWAR_1">
-			<Text>Disiplin her zaman kalabalığı yener. Bunu bir kez daha gördük.</Text>
+			<Text>Disiplin her zaman kalabaligi yener. Bunu bir kez daha gördük.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_WORK_AGAINST_SOMEONE_1">
-			<Text>Bu düşmana karşı bize katılır mısın?</Text>
+			<Text>Bu düsmana karsi bize katilir misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_ORHAN_WORK_WITH_US_1">
-			<Text>Kanun ve düzen üzerine kurulu bir ittifak ikimize de fayda sağlar.</Text>
+			<Text>Kanun ve düzen üzerine kurulu bir ittifak ikimize de fayda saglar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN">
 			<Text>Osman Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_ATTACKED_HOSTILE_1">
-			<Text>Demek savaş istiyorsun? Öyle olsun. Söğüt'ün yiğitleri geri adım atmaz.</Text>
+			<Text>Demek savas istiyorsun? Öyle olsun. Sögüt'ün yigitleri geri adim atmaz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_DEFEATED_1">
-			<Text>Rüyadaki ağaç devrildi... Ama unutma, kökleri toprağın derinlerindedir.</Text>
+			<Text>Rüyadaki agaç devrildi... Ama unutma, kökleri topragin derinlerindedir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_DOW_GENERIC_1">
-			<Text>Sınırlarıma göz diktin. Şimdi Kayı atlılarının toz bulutunu göreceksin!</Text>
+			<Text>Sinirlarima göz diktin. Simdi Kayi atlilarinin toz bulutunu göreceksin!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_FIRSTGREETING_1">
-			<Text>Hoş geldin yolcu! Ben Kayı boyunun beyi, Ertuğrul Gazi'nin oğlu Osman. Obamızda adalet vardır; dost gelene kapımız açık, kötü niyetle gelene kılıcımız hazırdır.</Text>
+			<Text>Hos geldin yolcu! Ben Kayi boyunun beyi, Ertugrul Gazi'nin oglu Osman. Obamizda adalet vardir; dost gelene kapimiz açik, kötü niyetle gelene kilicimiz hazirdir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_GREETING_HOSTILE_HELLO_1">
 			<Text>Yine mi sen? Söyle ne istiyorsun, vaktim az.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_GREETING_NEUTRAL_HELLO_1">
-			<Text>Selam sana. Konuşmak istediğin bir mesele var mı?</Text>
+			<Text>Selam sana. Konusmak istedigin bir mesele var mi?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_GREETING_POLITE_HELLO_1">
-			<Text>Ah, dostum! Obamızın ateşi senin için hep yanıyor. Buyur, otur.</Text>
+			<Text>Ah, dostum! Obamizin atesi senin için hep yaniyor. Buyur, otur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_LETS_HEAR_IT_1">
-			<Text>Dinliyorum. Sözünü dolandırmadan söyle.</Text>
+			<Text>Dinliyorum. Sözünü dolandirmadan söyle.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_PEDIA">
 			<Text>Osman Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_REQUEST_1">
-			<Text>Dostluğumuzun hatırına senden küçük bir yardım istiyorum.</Text>
+			<Text>Dostlugumuzun hatirina senden küçük bir yardim istiyorum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_WINWAR_1">
-			<Text>Uç beyi olarak çok savaş gördüm. Bu da onlardan biriydi ve galip gelen biziz.</Text>
+			<Text>Uç beyi olarak çok savas gördüm. Bu da onlardan biriydi ve galip gelen biziz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_WORK_AGAINST_SOMEONE_1">
-			<Text>Ortak düşmanımıza karşı birleşmenin zamanı geldi.</Text>
+			<Text>Ortak düsmanimiza karsi birlesmenin zamani geldi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_OSMAN_WORK_WITH_US_1">
 			<Text>Birlikte hareket edersek bu topraklarda kimse önümüzde duramaz.</Text>
@@ -612,25 +612,25 @@
 			<Text>Yavuz Sultan Selim</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_ATTACKED_HOSTILE_1">
-			<Text>Bana kılıç çeken, kılıçla karşılık bulur.</Text>
+			<Text>Bana kiliç çeken, kiliçla karsilik bulur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_DEFEATED_1">
 			<Text>Bu dünya iki hükümdara dar gelirdi... Demek ki bu sefer dar gelen ben oldum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_DOW_GENERIC_1">
-			<Text>Sabrım tükendi. Ordularım ve toplarım senin kapına dayanacak!</Text>
+			<Text>Sabrim tükendi. Ordularim ve toplarim senin kapina dayanacak!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_FIRSTGREETING_1">
-			<Text>Ben Selim Han, Mekke ve Medine'nin hizmetkârı. Bana dost olan, kardeşimdir; bana düşman olan, Çaldıran'ı hatırlasın.</Text>
+			<Text>Ben Selim Han, Mekke ve Medine'nin hizmetkâri. Bana dost olan, kardesimdir; bana düsman olan, Çaldiran'i hatirlasin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_GREETING_HOSTILE_HELLO_1">
-			<Text>Kısa kes. Ne istiyorsun?</Text>
+			<Text>Kisa kes. Ne istiyorsun?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_GREETING_NEUTRAL_HELLO_1">
 			<Text>Selam. Ne için geldin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_GREETING_POLITE_HELLO_1">
-			<Text>Hoş geldin. Dostlarıma karşı cömert olmayı bilirim.</Text>
+			<Text>Hos geldin. Dostlarima karsi cömert olmayi bilirim.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_LETS_HEAR_IT_1">
 			<Text>Söyle, dinliyorum.</Text>
@@ -639,58 +639,58 @@
 			<Text>Yavuz Sultan Selim</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_REQUEST_1">
-			<Text>Senden bir isteğim var. Umarım beni kırmazsın.</Text>
+			<Text>Senden bir istegim var. Umarim beni kirmazsin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_WINWAR_1">
-			<Text>Mısır'ı da, Şam'ı da böyle aldım. Sen de onlar gibi boyun eğdin.</Text>
+			<Text>Misir'i da, Sam'i da böyle aldim. Sen de onlar gibi boyun egdin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_WORK_AGAINST_SOMEONE_1">
-			<Text>Bu sapkın hükümdara karşı yanımda olacak mısın?</Text>
+			<Text>Bu sapkin hükümdara karsi yanimda olacak misin?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TL_YAVUZ_WORK_WITH_US_1">
-			<Text>Benimle birlikte olursan düşmanlarımız titreyecek.</Text>
+			<Text>Benimle birlikte olursan düsmanlarimiz titreyecek.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_AKINCI">
-			<Text>Akın</Text>
+			<Text>Akin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_AKINCI_HELP">
-			<Text>+1 hareket puanı.</Text>
+			<Text>+1 hareket puani.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_ATATURK_HOMELAND">
-			<Text>Vatan Savunması</Text>
+			<Text>Vatan Savunmasi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_ATATURK_HOMELAND_HELP">
-			<Text>Dost topraklarda +%15 savaş gücü.</Text>
+			<Text>Dost topraklarda +%15 savas gücü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_BATTAL_RAIDER">
-			<Text>Akıncı Ruhu</Text>
+			<Text>Akinci Ruhu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_BATTAL_RAIDER_HELP">
-			<Text>Dost topraklar dışında +%15 savaş gücü.</Text>
+			<Text>Dost topraklar disinda +%15 savas gücü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_CALDIRAN">
-			<Text>Çaldıran</Text>
+			<Text>Çaldiran</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_CALDIRAN_HELP">
-			<Text>Atlı birimlere karşı +%33 savaş gücü.</Text>
+			<Text>Atli birimlere karsi +%33 savas gücü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_CANAKKALE">
 			<Text>Çanakkale Ruhu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_CANAKKALE_HELP">
-			<Text>Dost topraklarda +%25 savaş gücü.</Text>
+			<Text>Dost topraklarda +%25 savas gücü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_FATIH_SIEGE">
-			<Text>Kuşatma Ustalığı</Text>
+			<Text>Kusatma Ustaligi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TL_FATIH_SIEGE_HELP">
-			<Text>Şehirlere karşı +%30 savaş gücü.</Text>
+			<Text>Sehirlere karsi +%30 savas gücü.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_01">
 			<Text>Ankara</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_02">
-			<Text>İzmir</Text>
+			<Text>Izmir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_03">
 			<Text>Samsun</Text>
@@ -717,19 +717,19 @@
 			<Text>Gaziantep</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_11">
-			<Text>Kahramanmaraş</Text>
+			<Text>Kahramanmaras</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_12">
-			<Text>Şanlıurfa</Text>
+			<Text>Sanliurfa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_13">
 			<Text>Sakarya</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_14">
-			<Text>Dumlupınar</Text>
+			<Text>Dumlupinar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_15">
-			<Text>İnönü</Text>
+			<Text>Inönü</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_16">
 			<Text>Çanakkale</Text>
@@ -738,7 +738,7 @@
 			<Text>Kocatepe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_18">
-			<Text>Elazığ</Text>
+			<Text>Elazig</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ATATURK_19">
 			<Text>Van</Text>
@@ -762,7 +762,7 @@
 			<Text>Adana</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_BATTAL_06">
-			<Text>Maraş</Text>
+			<Text>Maras</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_BATTAL_07">
 			<Text>Antakya</Text>
@@ -801,13 +801,13 @@
 			<Text>Kayseri</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_BATTAL_19">
-			<Text>Zamantı</Text>
+			<Text>Zamanti</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_BATTAL_20">
 			<Text>Gürün</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_01">
-			<Text>İstanbul</Text>
+			<Text>Istanbul</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_02">
 			<Text>Edirne</Text>
@@ -843,10 +843,10 @@
 			<Text>Midilli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_13">
-			<Text>Eğriboz</Text>
+			<Text>Egriboz</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_14">
-			<Text>İşkodra</Text>
+			<Text>Iskodra</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_15">
 			<Text>Kefe</Text>
@@ -864,16 +864,16 @@
 			<Text>Karaman</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_FATIH_20">
-			<Text>Rumeli Hisarı</Text>
+			<Text>Rumeli Hisari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_01">
 			<Text>Bursa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_02">
-			<Text>İznik</Text>
+			<Text>Iznik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_03">
-			<Text>İzmit</Text>
+			<Text>Izmit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_04">
 			<Text>Gemlik</Text>
@@ -885,19 +885,19 @@
 			<Text>Bergama</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_07">
-			<Text>Balıkesir</Text>
+			<Text>Balikesir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_08">
 			<Text>Gelibolu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_09">
-			<Text>Bolayır</Text>
+			<Text>Bolayir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_10">
 			<Text>Çorlu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_11">
-			<Text>Tekirdağ</Text>
+			<Text>Tekirdag</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_12">
 			<Text>Ulubat</Text>
@@ -915,19 +915,19 @@
 			<Text>Karamürsel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_17">
-			<Text>Kandıra</Text>
+			<Text>Kandira</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_18">
 			<Text>Çimpe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_19">
-			<Text>Keşan</Text>
+			<Text>Kesan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_ORHAN_20">
 			<Text>Malkara</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_01">
-			<Text>Söğüt</Text>
+			<Text>Sögüt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_02">
 			<Text>Bilecik</Text>
@@ -939,13 +939,13 @@
 			<Text>Domaniç</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_05">
-			<Text>İnegöl</Text>
+			<Text>Inegöl</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_06">
-			<Text>Yenişehir</Text>
+			<Text>Yenisehir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_07">
-			<Text>Eskişehir</Text>
+			<Text>Eskisehir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_08">
 			<Text>Bozüyük</Text>
@@ -960,19 +960,19 @@
 			<Text>Göynük</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_12">
-			<Text>Taraklı</Text>
+			<Text>Tarakli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_13">
 			<Text>Geyve</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_14">
-			<Text>Akyazı</Text>
+			<Text>Akyazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_15">
 			<Text>Kütahya</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_16">
-			<Text>Ermeni Pazarı</Text>
+			<Text>Ermeni Pazari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_17">
 			<Text>Lefke</Text>
@@ -984,7 +984,7 @@
 			<Text>Osmaneli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_OSMAN_20">
-			<Text>Gölpazarı</Text>
+			<Text>Gölpazari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_01">
 			<Text>Amasya</Text>
@@ -993,7 +993,7 @@
 			<Text>Kahire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_03">
-			<Text>Şam</Text>
+			<Text>Sam</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_04">
 			<Text>Halep</Text>
@@ -1011,7 +1011,7 @@
 			<Text>Tebriz</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_09">
-			<Text>Diyarbakır</Text>
+			<Text>Diyarbakir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_10">
 			<Text>Mardin</Text>
@@ -1020,10 +1020,10 @@
 			<Text>Gazze</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_12">
-			<Text>Trablusşam</Text>
+			<Text>Trablussam</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_13">
-			<Text>İskenderiye</Text>
+			<Text>Iskenderiye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_14">
 			<Text>Antep</Text>
@@ -1032,13 +1032,13 @@
 			<Text>Urfa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_16">
-			<Text>Dımaşk Kalesi</Text>
+			<Text>Dimask Kalesi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_17">
 			<Text>Ridaniye</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_18">
-			<Text>Mercidabık</Text>
+			<Text>Mercidabik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_CITY_YAVUZ_19">
 			<Text>Hama</Text>
@@ -1047,19 +1047,19 @@
 			<Text>Humus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_FATIH_CONQUEST">
-			<Text>Kuşatma Ustası: {1_City} fethedildi! Direniş süresi yarıya indi ve {2_Num} [ICON_GOLD] Altın kazanıldı.</Text>
+			<Text>Kusatma Ustasi: {1_City} fethedildi! Direnis süresi yariya indi ve {2_Num} [ICON_GOLD] Altin kazanildi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_FATIH_CONQUEST_SHORT">
 			<Text>Fetih</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_MAP_EMEA">
-			<Text>Türk Dünyası: Avrupa, Orta Doğu ve Afrika</Text>
+			<Text>Türk Dünyasi: Avrupa, Orta Dogu ve Afrika</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_MAP_EMEA_HELP">
-			<Text>Natural Earth verisinden üretilmiş gerçekçi Avrupa, Anadolu, Orta Doğu, Arabistan ve Afrika haritası (100x90). Tarihî başlangıç noktaları seçeneğiyle Türk liderleri gerçek başkentlerinin yakınında başlar. Önerilen harita boyutu: Devasa (Huge).</Text>
+			<Text>Natural Earth verisinden üretilmis gerçekçi Avrupa, Anadolu, Orta Dogu, Arabistan ve Afrika haritasi (100x90). Tarihî baslangiç noktalari seçenegiyle Türk liderleri gerçek baskentlerinin yakininda baslar. Önerilen harita boyutu: Devasa (Huge).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_MAP_OPTION_START">
-			<Text>Başlangıç Noktaları</Text>
+			<Text>Baslangiç Noktalari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_MAP_OPTION_START_HISTORIC">
 			<Text>Tarihî (gerçek konumlar)</Text>
@@ -1068,10 +1068,10 @@
 			<Text>Dengeli (rastgele)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ATATURK_01">
-			<Text>Kâzım Karabekir</Text>
+			<Text>Kâzim Karabekir</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ATATURK_02">
-			<Text>İsmet İnönü</Text>
+			<Text>Ismet Inönü</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ATATURK_03">
 			<Text>Fevzi Çakmak</Text>
@@ -1095,7 +1095,7 @@
 			<Text>Fahrettin Altay</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ATATURK_10">
-			<Text>Sakallı Nurettin</Text>
+			<Text>Sakalli Nurettin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_BATTAL_01">
 			<Text>Seyyid Ahmed</Text>
@@ -1110,10 +1110,10 @@
 			<Text>Cafer Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_BATTAL_05">
-			<Text>Danişmend Ahmed</Text>
+			<Text>Danismend Ahmed</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_BATTAL_06">
-			<Text>Şücaeddin</Text>
+			<Text>Sücaeddin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_BATTAL_07">
 			<Text>Melik Gazi</Text>
@@ -1125,52 +1125,52 @@
 			<Text>Akkoyunlu Hasan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_BATTAL_10">
-			<Text>Sultan Şuca</Text>
+			<Text>Sultan Suca</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_01">
-			<Text>Zağanos Paşa</Text>
+			<Text>Zaganos Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_02">
-			<Text>Mahmud Paşa</Text>
+			<Text>Mahmud Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_03">
 			<Text>Gedik Ahmed</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_04">
-			<Text>Akşemseddin</Text>
+			<Text>Aksemseddin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_05">
-			<Text>Ali Kuşçu</Text>
+			<Text>Ali Kusçu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_06">
 			<Text>Molla Gürani</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_07">
-			<Text>Hadım Süleyman</Text>
+			<Text>Hadim Süleyman</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_08">
 			<Text>Turahan Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_09">
-			<Text>Baltaoğlu</Text>
+			<Text>Baltaoglu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_FATIH_10">
-			<Text>Ulubatlı Hasan</Text>
+			<Text>Ulubatli Hasan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_01">
-			<Text>Hacı İlbey</Text>
+			<Text>Haci Ilbey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_02">
 			<Text>Gazi Evrenos</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_03">
-			<Text>Lala Şahin</Text>
+			<Text>Lala Sahin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_04">
-			<Text>Çandarlı Kara Halil</Text>
+			<Text>Çandarli Kara Halil</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_05">
-			<Text>Süleyman Paşa</Text>
+			<Text>Süleyman Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_06">
 			<Text>Akçakoca</Text>
@@ -1185,13 +1185,13 @@
 			<Text>Ece Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_ORHAN_10">
-			<Text>Fazıl Bey</Text>
+			<Text>Fazil Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_OSMAN_01">
 			<Text>Turgut Alp</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_OSMAN_02">
-			<Text>Samsa Çavuş</Text>
+			<Text>Samsa Çavus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_OSMAN_03">
 			<Text>Konur Alp</Text>
@@ -1215,133 +1215,133 @@
 			<Text>Saltuk Alp</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_OSMAN_10">
-			<Text>Bamsı Bey</Text>
+			<Text>Bamsi Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_01">
-			<Text>Hadım Sinan</Text>
+			<Text>Hadim Sinan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_02">
 			<Text>Piri Mehmed</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_03">
-			<Text>İdris-i Bitlisi</Text>
+			<Text>Idris-i Bitlisi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_04">
-			<Text>Hayır Bey</Text>
+			<Text>Hayir Bey</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_05">
 			<Text>Canberdi Gazali</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_06">
-			<Text>Mustafa Paşa</Text>
+			<Text>Mustafa Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_07">
-			<Text>Ferhad Paşa</Text>
+			<Text>Ferhad Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_08">
-			<Text>Kemalpaşazade</Text>
+			<Text>Kemalpasazade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_09">
-			<Text>Hüsrev Paşa</Text>
+			<Text>Hüsrev Pasa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_SPY_YAVUZ_10">
 			<Text>Pîrî Reis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_YAVUZ_CONQUEST">
-			<Text>Halifelik: {1_City} fethedildi! {2_Num} [ICON_PEACE] İnanç kazanıldı.</Text>
+			<Text>Halifelik: {1_City} fethedildi! {2_Num} [ICON_PEACE] Inanç kazanildi.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TL_YAVUZ_CONQUEST_SHORT">
 			<Text>Halifelik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_ATATURK">
-			<Text>Tüm şehirlerde [ICON_RESEARCH] Bilim ve [ICON_CULTURE] Kültür +%10. Kara birimleri dost topraklarda +%15 savaş gücü kazanır.</Text>
+			<Text>Tüm sehirlerde [ICON_RESEARCH] Bilim ve [ICON_CULTURE] Kültür +%10. Kara birimleri dost topraklarda +%15 savas gücü kazanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_ATATURK_SHORT">
-			<Text>Cumhuriyet İnkılapları</Text>
+			<Text>Cumhuriyet Inkilaplari</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_BATTAL">
-			<Text>Yakın dövüş ve atlı birimler dost topraklar dışında +%15 savaş gücü kazanır. [ICON_GREAT_GENERAL] Büyük General üretimi +%50, yağmadan elde edilen [ICON_GOLD] Altın +%100.</Text>
+			<Text>Yakin dövüs ve atli birimler dost topraklar disinda +%15 savas gücü kazanir. [ICON_GREAT_GENERAL] Büyük General üretimi +%50, yagmadan elde edilen [ICON_GOLD] Altin +%100.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_BATTAL_SHORT">
-			<Text>Destan Kahramanı</Text>
+			<Text>Destan Kahramani</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_FATIH">
-			<Text>Kuşatma birimleri şehirlere karşı +%30 savaş gücü kazanır. Fethedilen şehirlerde direniş süresi yarıya iner ve fetih başına şehir nüfusu x 10 [ICON_GOLD] Altın kazanılır.</Text>
+			<Text>Kusatma birimleri sehirlere karsi +%30 savas gücü kazanir. Fethedilen sehirlerde direnis süresi yariya iner ve fetih basina sehir nüfusu x 10 [ICON_GOLD] Altin kazanilir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_FATIH_SHORT">
-			<Text>Kuşatma Ustası</Text>
+			<Text>Kusatma Ustasi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_ORHAN">
-			<Text>Yakın dövüş ve barutlu birimler %25 daha hızlı üretilir ve +10 deneyimle başlar. Kara birimlerinin bakım masrafı %25 daha azdır.</Text>
+			<Text>Yakin dövüs ve barutlu birimler %25 daha hizli üretilir ve +10 deneyimle baslar. Kara birimlerinin bakim masrafi %25 daha azdir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_ORHAN_SHORT">
-			<Text>İlk Düzenli Ordu</Text>
+			<Text>Ilk Düzenli Ordu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_OSMAN">
-			<Text>Sınırlar %33 daha hızlı genişler. Her şehir +1 [ICON_FOOD] Gıda üretir.</Text>
+			<Text>Sinirlar %33 daha hizli genisler. Her sehir +1 [ICON_FOOD] Gida üretir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_OSMAN_SHORT">
-			<Text>Kuruluş Rüyası</Text>
+			<Text>Kurulus Rüyasi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_YAVUZ">
-			<Text>Öldürülen düşman birimlerinin savaş gücünün %50'si kadar [ICON_PEACE] İnanç kazanılır. Fethedilen her şehir, nüfusu x 15 [ICON_PEACE] İnanç kazandırır.</Text>
+			<Text>Öldürülen düsman birimlerinin savas gücünün %50'si kadar [ICON_PEACE] Inanç kazanilir. Fethedilen her sehir, nüfusu x 15 [ICON_PEACE] Inanç kazandirir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_TL_YAVUZ_SHORT">
 			<Text>Halifelik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_AKINCI">
-			<Text>Atlı yerine geçer. +1 hareket puanına sahiptir.</Text>
+			<Text>Atli yerine geçer. +1 hareket puanina sahiptir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_GAZI">
-			<Text>Kılıçlı yerine geçer. Daha güçlüdür ve ücretsiz Şok I terfisiyle başlar.</Text>
+			<Text>Kiliçli yerine geçer. Daha güçlüdür ve ücretsiz Sok I terfisiyle baslar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_MEHMETCIK">
-			<Text>Büyük Savaş Piyadesi yerine geçer. Daha güçlüdür ve dost topraklarda +%25 savaş gücü kazanır.</Text>
+			<Text>Büyük Savas Piyadesi yerine geçer. Daha güçlüdür ve dost topraklarda +%25 savas gücü kazanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_SAHI_TOPU">
-			<Text>Mancınık yerine geçer. Daha yüksek menzilli saldırı ve savaş gücüne sahiptir.</Text>
+			<Text>Mancinik yerine geçer. Daha yüksek menzilli saldiri ve savas gücüne sahiptir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_TUFEKENDAZ">
-			<Text>Tüfekçi yerine geçer. Daha güçlüdür ve atlı birimlere karşı +%33 savaş gücü kazanır.</Text>
+			<Text>Tüfekçi yerine geçer. Daha güçlüdür ve atli birimlere karsi +%33 savas gücü kazanir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_YAYA">
-			<Text>Mızrakçı yerine geçer. Daha güçlüdür ve ücretsiz Talim I terfisiyle başlar.</Text>
+			<Text>Mizrakçi yerine geçer. Daha güçlüdür ve ücretsiz Talim I terfisiyle baslar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_AKINCI">
-			<Text>Kayı Akıncısı</Text>
+			<Text>Kayi Akincisi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_AKINCI_STRATEGY">
-			<Text>Akıncılar hızlı keşif ve baskın birimleridir. Fazladan hareket puanı sayesinde düşman topraklarına derin akınlar yapabilir, savunmasız işçileri ve yerleşimcileri yakalayabilirsiniz.</Text>
+			<Text>Akincilar hizli kesif ve baskin birimleridir. Fazladan hareket puani sayesinde düsman topraklarina derin akinlar yapabilir, savunmasiz isçileri ve yerlesimcileri yakalayabilirsiniz.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_GAZI">
 			<Text>Gazi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_GAZI_STRATEGY">
-			<Text>Gaziler açık arazide çok etkilidir. Battal Gazi'nin yeteneğiyle düşman topraklarında daha da güçlenirler; erken saldırı savaşları için idealdirler.</Text>
+			<Text>Gaziler açik arazide çok etkilidir. Battal Gazi'nin yetenegiyle düsman topraklarinda daha da güçlenirler; erken saldiri savaslari için idealdirler.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_MEHMETCIK">
 			<Text>Mehmetçik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_MEHMETCIK_STRATEGY">
-			<Text>Mehmetçikler, vatan topraklarını savunmada eşsizdir. Atatürk'ün yeteneğiyle birlikte dost topraklarda düşmana ağır kayıplar verdirirler.</Text>
+			<Text>Mehmetçikler, vatan topraklarini savunmada essizdir. Atatürk'ün yetenegiyle birlikte dost topraklarda düsmana agir kayiplar verdirirler.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_SAHI_TOPU">
-			<Text>Şahi Topu</Text>
+			<Text>Sahi Topu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_SAHI_TOPU_STRATEGY">
-			<Text>Şahi topları, ortaçağ surlarını yıkmak için tasarlanmıştır. Fatih'in kuşatma yeteneğiyle birleştiğinde düşman şehirlerini kısa sürede düşürebilirsiniz. Mutlaka yakın dövüş birimleriyle koruyun.</Text>
+			<Text>Sahi toplari, ortaçag surlarini yikmak için tasarlanmistir. Fatih'in kusatma yetenegiyle birlestiginde düsman sehirlerini kisa sürede düsürebilirsiniz. Mutlaka yakin dövüs birimleriyle koruyun.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_TUFEKENDAZ">
 			<Text>Tüfekendaz</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_TUFEKENDAZ_STRATEGY">
-			<Text>Tüfekendazlar, süvari ağırlıklı ordulara karşı mükemmel bir savunma hattı oluşturur. Hızlı düşman atlılarının bulunduğu cephelerde kullanın.</Text>
+			<Text>Tüfekendazlar, süvari agirlikli ordulara karsi mükemmel bir savunma hatti olusturur. Hizli düsman atlilarinin bulundugu cephelerde kullanin.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_YAYA">
 			<Text>Yaya</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_YAYA_STRATEGY">
-			<Text>Yayalar, erken dönemin en sağlam savunma birimidir. Talim terfisi sayesinde engebeli arazide üstünlük kurarlar; atlı saldırılara karşı hattınızı tutmak için idealdirler.</Text>
+			<Text>Yayalar, erken dönemin en saglam savunma birimidir. Talim terfisi sayesinde engebeli arazide üstünlük kurarlar; atli saldirilara karsi hattinizi tutmak için idealdirler.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

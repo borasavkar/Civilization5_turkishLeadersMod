@@ -1,50 +1,9 @@
 -- ============================================================
 -- Turk Liderleri Modu - Terfiler ve benzersiz birimler
 -- Birimler, oyundaki temel birimin tum satiri kopyalanarak
--- olusturulur; boylece BNW'deki tum sutunlar dogru dolar.
+-- olusturulur. Boylece BNW sutunlarinin hepsi dogru dolar.
+-- Terfiler TL_Gameplay.xml dosyasindadir.
 -- ============================================================
-
--- ------------------------------------------------------------
--- TERFILER
--- ------------------------------------------------------------
--- Fatih: Kusatma ustaligi (kusatma birimleri sehirlere karsi +%30)
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry, CityAttack)
-SELECT 'PROMOTION_TL_FATIH_SIEGE', 'TXT_KEY_PROMOTION_TL_FATIH_SIEGE', 'TXT_KEY_PROMOTION_TL_FATIH_SIEGE_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_FATIH_SIEGE', 30
-FROM UnitPromotions WHERE Type IN ('PROMOTION_SIEGE', 'PROMOTION_DRILL_1') ORDER BY (Type = 'PROMOTION_DRILL_1') LIMIT 1;
-
--- Battal Gazi: Akinci ruhu (dost topraklar disinda +%15 savas gucu)
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry, OutsideFriendlyLandsModifier)
-SELECT 'PROMOTION_TL_BATTAL_RAIDER', 'TXT_KEY_PROMOTION_TL_BATTAL_RAIDER', 'TXT_KEY_PROMOTION_TL_BATTAL_RAIDER_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_BATTAL_RAIDER', 15
-FROM UnitPromotions WHERE Type = 'PROMOTION_SHOCK_1';
-
--- Ataturk: Vatan savunmasi (dost topraklarda +%15 savas gucu)
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry, FriendlyLandsModifier)
-SELECT 'PROMOTION_TL_ATATURK_HOMELAND', 'TXT_KEY_PROMOTION_TL_ATATURK_HOMELAND', 'TXT_KEY_PROMOTION_TL_ATATURK_HOMELAND_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_ATATURK_HOMELAND', 15
-FROM UnitPromotions WHERE Type = 'PROMOTION_DRILL_1';
-
--- Akinci: +1 hareket
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry, MovesChange)
-SELECT 'PROMOTION_TL_AKINCI', 'TXT_KEY_PROMOTION_TL_AKINCI', 'TXT_KEY_PROMOTION_TL_AKINCI_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_AKINCI', 1
-FROM UnitPromotions WHERE Type IN ('PROMOTION_MOBILITY', 'PROMOTION_DRILL_1') ORDER BY (Type = 'PROMOTION_DRILL_1') LIMIT 1;
-
--- Tufekendaz: Caldiran (atli birimlere karsi +%33)
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry)
-SELECT 'PROMOTION_TL_CALDIRAN', 'TXT_KEY_PROMOTION_TL_CALDIRAN', 'TXT_KEY_PROMOTION_TL_CALDIRAN_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_CALDIRAN'
-FROM UnitPromotions WHERE Type IN ('PROMOTION_ANTI_MOUNTED_I', 'PROMOTION_DRILL_1') ORDER BY (Type = 'PROMOTION_DRILL_1') LIMIT 1;
-
-INSERT INTO UnitPromotions_UnitCombatMods (PromotionType, UnitCombatType, Modifier) VALUES
-	('PROMOTION_TL_CALDIRAN', 'UNITCOMBAT_MOUNTED', 33);
-
--- Mehmetcik: Canakkale ruhu (dost topraklarda +%25 savas gucu)
-INSERT INTO UnitPromotions (Type, Description, Help, Sound, CannotBeChosen, PortraitIndex, IconAtlas, PediaType, PediaEntry, FriendlyLandsModifier)
-SELECT 'PROMOTION_TL_CANAKKALE', 'TXT_KEY_PROMOTION_TL_CANAKKALE', 'TXT_KEY_PROMOTION_TL_CANAKKALE_HELP',
-	'AS2D_IF_LEVELUP', 1, PortraitIndex, IconAtlas, 'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TL_CANAKKALE', 25
-FROM UnitPromotions WHERE Type = 'PROMOTION_COVER_1';
 
 -- ------------------------------------------------------------
 -- BENZERSIZ BIRIMLER (temel birimin satiri kopyalanir)
@@ -137,3 +96,15 @@ INSERT INTO Unit_FreePromotions (UnitType, PromotionType) VALUES ('UNIT_TL_GAZI'
 -- Mehmetcik (Buyuk Savas Piyadesi yerine): +5 guc, Canakkale ruhu
 UPDATE Units SET Combat = Combat + 5 WHERE Type = 'UNIT_TL_MEHMETCIK';
 INSERT INTO Unit_FreePromotions (UnitType, PromotionType) VALUES ('UNIT_TL_MEHMETCIK', 'PROMOTION_TL_CANAKKALE');
+
+-- ------------------------------------------------------------
+-- Medeniyetlere atama (yalnizca birim gercekten olustuysa)
+-- ------------------------------------------------------------
+INSERT INTO Civilization_UnitClassOverrides (CivilizationType, UnitClassType, UnitType)
+SELECT c.CivType, u.Class, u.Type FROM Units u INNER JOIN (
+	SELECT 'CIVILIZATION_TL_OSMAN' AS CivType, 'UNIT_TL_AKINCI' AS UnitType UNION ALL
+	SELECT 'CIVILIZATION_TL_ORHAN', 'UNIT_TL_YAYA' UNION ALL
+	SELECT 'CIVILIZATION_TL_FATIH', 'UNIT_TL_SAHI_TOPU' UNION ALL
+	SELECT 'CIVILIZATION_TL_YAVUZ', 'UNIT_TL_TUFEKENDAZ' UNION ALL
+	SELECT 'CIVILIZATION_TL_BATTAL', 'UNIT_TL_GAZI' UNION ALL
+	SELECT 'CIVILIZATION_TL_ATATURK', 'UNIT_TL_MEHMETCIK') c ON u.Type = c.UnitType;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10" version="1">
+<Mod id="8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10" version="2">
   <Properties>
-    <Name>Türk Liderleri (Turkish Leaders)</Name>
+    <Name>Turk Liderleri (Turkish Leaders)</Name>
     <Stability>Beta</Stability>
-    <Teaser>Osman Bey, Orhan Gazi, Fatih, Yavuz, Battal Gazi ve Atatürk ile altı yeni Türk medeniyeti ve Avrupa-Orta Doğu-Afrika haritası.</Teaser>
-    <Description>Altı yeni medeniyet ekler: Kayı Beyliği (Osman Bey), Osmanlı Beyliği (Orhan Gazi), Osmanlı Devleti (Fatih Sultan Mehmet), Osmanlı Hilafeti (Yavuz Sultan Selim), Uç Gazileri (Seyyid Battal Gazi) ve Türkiye Cumhuriyeti (Mustafa Kemal Atatürk). Her medeniyetin kendine özgü yeteneği, birimi ve binası vardır. Ayrıca gerçek coğrafyaya dayanan, tarihî başlangıç noktalı bir Avrupa, Orta Doğu ve Afrika haritası içerir. Brave New World gerektirir.</Description>
-    <Authors>Bora Şavkar</Authors>
+    <Teaser>Osman Bey, Orhan Gazi, Fatih, Yavuz, Battal Gazi ve Atatürk ile alti yeni Türk medeniyeti ve Avrupa-Orta Dogu-Afrika haritasi.</Teaser>
+    <Description>Alti yeni medeniyet ekler: Kayi Beyligi (Osman Bey), Osmanli Beyligi (Orhan Gazi), Osmanli Devleti (Fatih Sultan Mehmet), Osmanli Hilafeti (Yavuz Sultan Selim), Uç Gazileri (Seyyid Battal Gazi) ve Türkiye Cumhuriyeti (Mustafa Kemal Atatürk). Her medeniyetin kendine özgü yetenegi, birimi ve binasi vardir. Ayrica gerçek cografyaya dayanan, tarihî baslangiç noktali bir Avrupa, Orta Dogu ve Afrika haritasi içerir. Brave New World gerektirir.</Description>
+    <Authors>Bora Savkar</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -63,31 +63,29 @@
     <File md5="DBB89EA324E07C21618C8A6968403C5F" import="1">Art/Leaders/TL_Yavuz_DOM.dds</File>
     <File md5="D5330C015A7FDAF536284231699AB77F" import="1">Art/Leaders/TL_Yavuz_Diplo.dds</File>
     <File md5="7D60C28B2579512FFD5D513AF5DFE34D" import="1">Art/Leaders/TL_Yavuz_Scene.xml</File>
-    <File md5="3F4073F959BDABEE99A4E81B8E77BDD0" import="0">Core/TL_Art.sql</File>
-    <File md5="0F76466DA49DFA76261497491EA08C61" import="0">Core/TL_Buildings.sql</File>
-    <File md5="BDE52A245ECDF6F4FC3578E0B45CC311" import="0">Core/TL_Civilizations.sql</File>
-    <File md5="811F514621422C89345739B7C8738CD5" import="0">Core/TL_Colors.sql</File>
-    <File md5="F27BA9DE2DC2BA29368F178607943A15" import="0">Core/TL_Names.sql</File>
-    <File md5="7B357F6F5FB94B5E8BEF87A8B1AE5F75" import="0">Core/TL_Units.sql</File>
+    <File md5="FA1860B7E68FCAA1024867985439F328" import="0">Core/TL_Buildings.sql</File>
+    <File md5="3BF885DEFF009EF034313287EDDE85D8" import="0">Core/TL_Civilizations.sql</File>
+    <File md5="18F03CE2C862E1E2CB45692642698AAA" import="0">Core/TL_Extras.xml</File>
+    <File md5="7BAF2E50038792B1FAA20E76687D82B4" import="0">Core/TL_Gameplay.xml</File>
+    <File md5="95FCD30950C11B9A8E4D178205A8AD8F" import="0">Core/TL_Units.sql</File>
     <File md5="154742DECEBAE2EE3B2C29C5C576C28F" import="0">Lua/TL_Traits.lua</File>
     <File md5="6245B35D8B74402D7753FE8448964687" import="0">Maps/TL_EMEA.lua</File>
-    <File md5="C77C854AEC178651BC8E5D3A5ADF071A" import="0">Text/TL_Text.xml</File>
+    <File md5="270F5D50AB7CFFBF5E6D5CD8F453593A" import="0">Text/TL_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>Core/TL_Colors.sql</UpdateDatabase>
-      <UpdateDatabase>Core/TL_Art.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Gameplay.xml</UpdateDatabase>
+      <UpdateDatabase>Text/TL_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TL_Extras.xml</UpdateDatabase>
       <UpdateDatabase>Core/TL_Units.sql</UpdateDatabase>
       <UpdateDatabase>Core/TL_Buildings.sql</UpdateDatabase>
       <UpdateDatabase>Core/TL_Civilizations.sql</UpdateDatabase>
-      <UpdateDatabase>Core/TL_Names.sql</UpdateDatabase>
-      <UpdateDatabase>Text/TL_Text.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
     <EntryPoint type="InGameUIAddin" file="Lua/TL_Traits.lua">
       <Name>TL_Traits</Name>
-      <Description>Türk liderlerinin Lua ile çalışan yetenekleri</Description>
+      <Description>Turk liderlerinin Lua ile calisan yetenekleri</Description>
     </EntryPoint>
     <EntryPoint type="MapScript" file="Maps/TL_EMEA.lua">
       <Name>TXT_KEY_TL_MAP_EMEA</Name>

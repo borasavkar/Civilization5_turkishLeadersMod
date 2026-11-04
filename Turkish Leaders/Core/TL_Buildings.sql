@@ -1,5 +1,5 @@
 -- ============================================================
--- Turk Liderleri Modu - Benzersiz binalar ve gorunmez yetenek binalari
+-- Turk Liderleri Modu - Benzersiz binalar
 -- ============================================================
 
 -- ------------------------------------------------------------
@@ -91,35 +91,14 @@ WHERE Type = 'BUILDING_TL_RIBAT';
 INSERT INTO Building_YieldChanges (BuildingType, YieldType, Yield) VALUES ('BUILDING_TL_HALKEVI', 'YIELD_CULTURE', 2);
 
 -- ------------------------------------------------------------
--- GORUNMEZ YETENEK BINALARI
--- Lua betigi (TL_Traits.lua) bunlari ilgili medeniyetin
--- tum sehirlerine otomatik olarak yerlestirir.
+-- Medeniyetlere atama (yalnizca bina gercekten olustuysa)
+-- Gorunmez yetenek binalari TL_Gameplay.xml dosyasindadir.
 -- ------------------------------------------------------------
-INSERT INTO BuildingClasses (Type, DefaultBuilding, Description, NoLimit) VALUES
-	('BUILDINGCLASS_TL_DUMMY_OSMAN',   'BUILDING_TL_DUMMY_OSMAN',   'TXT_KEY_BUILDING_TL_DUMMY_OSMAN',   1),
-	('BUILDINGCLASS_TL_DUMMY_ORHAN',   'BUILDING_TL_DUMMY_ORHAN',   'TXT_KEY_BUILDING_TL_DUMMY_ORHAN',   1),
-	('BUILDINGCLASS_TL_DUMMY_ATATURK', 'BUILDING_TL_DUMMY_ATATURK', 'TXT_KEY_BUILDING_TL_DUMMY_ATATURK', 1);
-
-INSERT INTO Buildings (Type, BuildingClass, Cost, FaithCost, GreatWorkCount, GoldMaintenance, PrereqTech, Description, Help,
-	NeverCapture, NukeImmune, ConquestProb, HurryCostModifier, MinAreaSize, IconAtlas, PortraitIndex)
-VALUES
-	('BUILDING_TL_DUMMY_OSMAN',   'BUILDINGCLASS_TL_DUMMY_OSMAN',   -1, -1, -1, 0, NULL, 'TXT_KEY_BUILDING_TL_DUMMY_OSMAN',   'TXT_KEY_BUILDING_TL_DUMMY_OSMAN_HELP',   1, 1, 0, -1, -1, 'BW_ATLAS_1', 19),
-	('BUILDING_TL_DUMMY_ORHAN',   'BUILDINGCLASS_TL_DUMMY_ORHAN',   -1, -1, -1, 0, NULL, 'TXT_KEY_BUILDING_TL_DUMMY_ORHAN',   'TXT_KEY_BUILDING_TL_DUMMY_ORHAN_HELP',   1, 1, 0, -1, -1, 'BW_ATLAS_1', 19),
-	('BUILDING_TL_DUMMY_ATATURK', 'BUILDINGCLASS_TL_DUMMY_ATATURK', -1, -1, -1, 0, NULL, 'TXT_KEY_BUILDING_TL_DUMMY_ATATURK', 'TXT_KEY_BUILDING_TL_DUMMY_ATATURK_HELP', 1, 1, 0, -1, -1, 'BW_ATLAS_1', 19);
-
--- Osman Bey: her sehirde +1 Gida
-INSERT INTO Building_YieldChanges (BuildingType, YieldType, Yield) VALUES
-	('BUILDING_TL_DUMMY_OSMAN', 'YIELD_FOOD', 1);
-
--- Orhan Gazi: yaya ve barutlu birimlerin uretimi +%25, bu birimlere +10 deneyim
-INSERT INTO Building_UnitCombatProductionModifiers (BuildingType, UnitCombatType, Modifier) VALUES
-	('BUILDING_TL_DUMMY_ORHAN', 'UNITCOMBAT_MELEE', 25),
-	('BUILDING_TL_DUMMY_ORHAN', 'UNITCOMBAT_GUN',   25);
-INSERT INTO Building_UnitCombatFreeExperiences (BuildingType, UnitCombatType, Experience) VALUES
-	('BUILDING_TL_DUMMY_ORHAN', 'UNITCOMBAT_MELEE', 10),
-	('BUILDING_TL_DUMMY_ORHAN', 'UNITCOMBAT_GUN',   10);
-
--- Ataturk: her sehirde Bilim ve Kultur +%10
-INSERT INTO Building_YieldModifiers (BuildingType, YieldType, Yield) VALUES
-	('BUILDING_TL_DUMMY_ATATURK', 'YIELD_SCIENCE', 10);
-UPDATE Buildings SET CultureRateModifier = 10 WHERE Type = 'BUILDING_TL_DUMMY_ATATURK';
+INSERT INTO Civilization_BuildingClassOverrides (CivilizationType, BuildingClassType, BuildingType)
+SELECT c.CivType, b.BuildingClass, b.Type FROM Buildings b INNER JOIN (
+	SELECT 'CIVILIZATION_TL_OSMAN' AS CivType, 'BUILDING_TL_ZAVIYE' AS BuildingType UNION ALL
+	SELECT 'CIVILIZATION_TL_ORHAN', 'BUILDING_TL_MEDRESE' UNION ALL
+	SELECT 'CIVILIZATION_TL_FATIH', 'BUILDING_TL_KAPALICARSI' UNION ALL
+	SELECT 'CIVILIZATION_TL_YAVUZ', 'BUILDING_TL_KULLIYE' UNION ALL
+	SELECT 'CIVILIZATION_TL_BATTAL', 'BUILDING_TL_RIBAT' UNION ALL
+	SELECT 'CIVILIZATION_TL_ATATURK', 'BUILDING_TL_HALKEVI') c ON b.Type = c.BuildingType;

@@ -68,6 +68,7 @@ Mod gerçek oyunda henüz test edilmedi. Sorun yaşarsanız günlük kayıtları
 - Battal Gazi'nin günümüze ulaşmış bir portresi yoktur. Onun yerine 16. yüzyıl Süleymannâme'sinden bir akıncı beyi minyatürü temsilî olarak kullanılmıştır.
 - Fatih ve Yavuz'un fetih bonusları ile Osman, Orhan ve Atatürk'ün şehir bonusları Lua betiğiyle çalışır. Çok oyunculu modda bu betikler her oyuncuda ayrı çalıştığı için uyumsuzluk riski vardır; mod öncelikle tek oyunculu oyun için tasarlanmıştır.
 - Oyunda Türkçe dil seçeneği bulunmadığından metinler İngilizce dil tablosuna yazılmıştır. Oyun hangi dilde olursa olsun Türkçe görünür.
+- Civ V'in yazı tipinde ş, ğ ve ı harfleri yoktur. Bu harfler oyunda s, g ve i olarak yazılır (ör. "Başlangıç" yerine "Baslangiç"). ç, ö ve ü olduğu gibi görünür.
 
 ## Geliştirici notları
 
@@ -78,7 +79,7 @@ pip install pillow shapely lupa
 ```
 
 ```bash
-python3 tools/build_text.py
+python3 tools/build_text.py && python3 tools/build_gameplay.py
 ```
 
 ```bash
@@ -98,6 +99,7 @@ python3 tools/build_modinfo.py
 ```
 
 - `tools/texts.py`: Tüm Türkçe metinler, şehir ve casus adları, diplomasi sözleri.
+- `tools/build_gameplay.py`: Medeniyet, lider, yetenek, renk, simge ve isim verilerini XML olarak üretir (`Core/TL_Gameplay.xml`, `Core/TL_Extras.xml`). Benzersiz birim ve binalar, oyundaki temel satırı kopyaladıkları için SQL dosyalarındadır.
 - `tools/build_map.py`: Natural Earth verisinden harita ızgarasını (`tools/emea_grid.txt`) üretir ve `tools/map_template.lua` ile birleştirir. Izgarayı yeniden üretmek için Natural Earth GeoJSON klasörünü argüman olarak verin.
 - `tools/test_sql.py` ve `tools/test_lua.py`: SQL dosyalarını sahte bir veritabanında, Lua betiklerini taklit edilmiş bir Civ V API'siyle (Lua 5.1) çalıştırır. Gerçek oyundaki testin yerini tutmaz, ama sözdizimi ve mantık hatalarını erken yakalar.
 - `tools/build_modinfo.py`: Dosyaların MD5 değerlerini hesaplayıp `.modinfo` dosyasını yazar. Herhangi bir dosyayı değiştirdikten sonra çalıştırın.

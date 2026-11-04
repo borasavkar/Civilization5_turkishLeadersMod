@@ -139,10 +139,11 @@ def main():
     db = sqlite3.connect(":memory:")
     db.executescript(SCHEMA)
     db.executescript(BASE_DATA)
-    for rel in ["Core/TL_Colors.sql", "Core/TL_Art.sql", "Core/TL_Units.sql", "Core/TL_Buildings.sql",
-                "Core/TL_Civilizations.sql", "Core/TL_Names.sql"]:
-        run_sql(db, rel)
+    run_xml(db, "Core/TL_Gameplay.xml")
     run_xml(db, "Text/TL_Text.xml")
+    run_xml(db, "Core/TL_Extras.xml")
+    for rel in ["Core/TL_Units.sql", "Core/TL_Buildings.sql", "Core/TL_Civilizations.sql"]:
+        run_sql(db, rel)
 
     q = lambda s: db.execute(s).fetchall()
     # birimler
@@ -166,6 +167,9 @@ def main():
     assert q("SELECT COUNT(*) FROM Leader_MajorCivApproachBiases")[0][0] == 42
     assert q("SELECT Bias FROM Leader_MajorCivApproachBiases WHERE LeaderType='LEADER_TL_YAVUZ' AND MajorCivApproachType='MAJOR_CIV_APPROACH_WAR'") == [(9,)]
     assert q("SELECT Flavor FROM Leader_Flavors WHERE LeaderType='LEADER_TL_ATATURK' AND FlavorType='FLAVOR_SCIENCE'") == [(9,)]
+    assert q("SELECT COUNT(*) FROM Civilization_UnitClassOverrides")[0][0] == 6
+    assert q("SELECT COUNT(*) FROM Civilization_BuildingClassOverrides")[0][0] == 6
+    assert q("SELECT ArtStylePrefix FROM Civilizations WHERE Type='CIVILIZATION_TL_OSMAN'") == [("MIDDLE EAST",)]
     # yardimci tablolar kaldirilmis olmali
     leftovers = q("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'TL_%'")
     assert leftovers == [], leftovers

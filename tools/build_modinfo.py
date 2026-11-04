@@ -1,26 +1,29 @@
 #!/usr/bin/env python3
 """Mod klasorundeki dosyalari tarar, MD5 degerlerini hesaplar ve TurkishLeaders.modinfo dosyasini yazar."""
 import hashlib
+import sys
 import os
 from xml.sax.saxutils import escape
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_text import tr_safe  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOD = os.path.join(ROOT, "Turkish Leaders")
 MOD_ID = "8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10"
-VERSION = 1
+VERSION = 2
 
 DB_ORDER = [
-    "Core/TL_Colors.sql",
-    "Core/TL_Art.sql",
+    "Core/TL_Gameplay.xml",
+    "Text/TL_Text.xml",
+    "Core/TL_Extras.xml",
     "Core/TL_Units.sql",
     "Core/TL_Buildings.sql",
     "Core/TL_Civilizations.sql",
-    "Core/TL_Names.sql",
-    "Text/TL_Text.xml",
 ]
 NO_IMPORT = set(DB_ORDER) | {"Lua/TL_Traits.lua", "Maps/TL_EMEA.lua"}
 
-NAME = "Türk Liderleri (Turkish Leaders)"
+NAME = "Turk Liderleri (Turkish Leaders)"
 TEASER = "Osman Bey, Orhan Gazi, Fatih, Yavuz, Battal Gazi ve Atatürk ile altı yeni Türk medeniyeti ve Avrupa-Orta Doğu-Afrika haritası."
 DESCRIPTION = (
     "Altı yeni medeniyet ekler: Kayı Beyliği (Osman Bey), Osmanlı Beyliği (Orhan Gazi), Osmanlı Devleti "
@@ -56,9 +59,9 @@ def main():
            "  <Properties>",
            "    <Name>%s</Name>" % escape(NAME),
            "    <Stability>Beta</Stability>",
-           "    <Teaser>%s</Teaser>" % escape(TEASER),
-           "    <Description>%s</Description>" % escape(DESCRIPTION),
-           "    <Authors>Bora Şavkar</Authors>",
+           "    <Teaser>%s</Teaser>" % escape(tr_safe(TEASER)),
+           "    <Description>%s</Description>" % escape(tr_safe(DESCRIPTION)),
+           "    <Authors>Bora Savkar</Authors>",
            "    <HideSetupGame>0</HideSetupGame>",
            "    <AffectsSavedGames>1</AffectsSavedGames>",
            "    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>",
@@ -88,7 +91,7 @@ def main():
             "  <EntryPoints>",
             '    <EntryPoint type="InGameUIAddin" file="Lua/TL_Traits.lua">',
             "      <Name>TL_Traits</Name>",
-            "      <Description>Türk liderlerinin Lua ile çalışan yetenekleri</Description>",
+            "      <Description>Turk liderlerinin Lua ile calisan yetenekleri</Description>",
             "    </EntryPoint>",
             '    <EntryPoint type="MapScript" file="Maps/TL_EMEA.lua">',
             "      <Name>TXT_KEY_TL_MAP_EMEA</Name>",
