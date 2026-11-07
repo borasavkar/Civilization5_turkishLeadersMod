@@ -1,7 +1,7 @@
 -- ============================================================
 -- Turk Liderleri Modu - Gorunum ayarlari
 -- Medeniyetler TL_Gameplay.xml dosyasinda tanimlidir.
--- Bu dosya sehir gorunumu, muzik ve harita resmini oyundaki
+-- Bu dosya sehir gorunumunu ve harita resmini oyundaki
 -- Osmanli satirindan kopyalar.
 -- ============================================================
 UPDATE Civilizations SET
@@ -9,7 +9,6 @@ UPDATE Civilizations SET
 	ArtStyleType   = (SELECT ArtStyleType   FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN'),
 	ArtStyleSuffix = (SELECT ArtStyleSuffix FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN'),
 	ArtStylePrefix = (SELECT ArtStylePrefix FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN'),
-	SoundtrackTag  = (SELECT SoundtrackTag  FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN'),
 	MapImage       = (SELECT MapImage       FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN')
 WHERE Type LIKE 'CIVILIZATION_TL_%'
 AND EXISTS (SELECT 1 FROM Civilizations WHERE Type = 'CIVILIZATION_OTTOMAN');

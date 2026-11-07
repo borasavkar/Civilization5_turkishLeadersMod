@@ -16,6 +16,19 @@ import texts  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "Turkish Leaders", "Core", "TL_Gameplay.xml")
 OUT_EXTRAS = os.path.join(ROOT, "Turkish Leaders", "Core", "TL_Extras.xml")
+OUT_AUDIO = os.path.join(ROOT, "Turkish Leaders", "Core", "TL_Audio.xml")
+
+# ----------------------------------------------------------------- muzik
+# Haritadaki muzik: Civilizations.SoundtrackTag -> SONG_<ETIKET>_PEACE_n / SONG_<ETIKET>_WAR_n
+# Diplomasi ekrani: LEADER_X -> AS2D_LEADER_MUSIC_X_PEACE / _WAR
+# Dosya adlari uzantisiz yazilir; mp3 dosyalari Sounds/ klasorunde ve VFS'e aktarilir.
+SOUNDTRACK_TAG = "TLTurk"
+MUSIC_PEACE = ["TL_Music_Gezinti", "TL_Music_Ask", "TL_Music_Locatin"]   # yalnizca baris
+MUSIC_WAR = ["TL_Music_Atak"]                                             # yalnizca savas
+LEADER_PEACE = {"BATTAL": "TL_Music_Gezinti"}   # digerleri: TL_Music_Locatin
+LEADER_PEACE_DEFAULT = "TL_Music_Locatin"
+LEADER_WAR = "TL_Music_Atak"
+MUSIC_VOLUME = 60
 # Bir XML dosyasindaki tek hata tum dosyayi iptal eder. Bu yuzden medeniyet ve liderlerin
 # gorunmesi icin sart olmayan tablolar ayri bir dosyaya yazilir.
 EXTRA_TABLES = {"UnitPromotions", "UnitPromotions_UnitCombatMods", "BuildingClasses", "Buildings",
@@ -260,7 +273,7 @@ def main():
             "PortraitIndex": i,
             "IconAtlas": "TL_CIV_ATLAS",
             "AlphaIconAtlas": "TL_CIV_ALPHA_ATLAS",
-            "SoundtrackTag": "Ottoman",
+            "SoundtrackTag": SOUNDTRACK_TAG,
             "MapImage": "MapOttoman512.dds",
             "DawnOfManQuote": "TXT_KEY_CIV5_DAWN_TL_%s_TEXT" % c,
             "DawnOfManImage": "TL_%s_DOM.dds" % SCENE_NAME[c],
@@ -299,7 +312,36 @@ def main():
         fh.write(d.render(exclude=EXTRA_TABLES))
     with open(OUT_EXTRAS, "w", encoding="utf-8", newline="\r\n") as fh:
         fh.write(d.render(only=EXTRA_TABLES))
-    print("yazildi:", OUT, OUT_EXTRAS)
+    write_audio()
+    print("yazildi:", OUT, OUT_EXTRAS, OUT_AUDIO)
+
+
+def write_audio():
+    a = Doc()
+    sounds, scripts = [], []
+
+    def snd(fname):
+        return "SND_" + fname.upper()
+
+    for fname in sorted(set(MUSIC_PEACE + MUSIC_WAR + [LEADER_WAR, LEADER_PEACE_DEFAULT] + list(LEADER_PEACE.values()))):
+        sounds.append({"SoundID": snd(fname), "Filename": fname, "LoadType": "DynamicResident"})
+
+    def script(sid, fname):
+        scripts.append({"ScriptID": sid, "SoundID": snd(fname), "SoundType": "GAME_MUSIC",
+                        "MinVolume": MUSIC_VOLUME, "MaxVolume": MUSIC_VOLUME, "IsMusic": True})
+
+    tag = SOUNDTRACK_TAG.upper()
+    for i, f in enumerate(MUSIC_PEACE, 1):
+        script("SONG_%s_PEACE_%d" % (tag, i), f)
+    for i, f in enumerate(MUSIC_WAR, 1):
+        script("SONG_%s_WAR_%d" % (tag, i), f)
+    for c in CIVS:
+        script("AS2D_LEADER_MUSIC_TL_%s_PEACE" % c, LEADER_PEACE.get(c, LEADER_PEACE_DEFAULT))
+        script("AS2D_LEADER_MUSIC_TL_%s_WAR" % c, LEADER_WAR)
+    a.table("Audio_Sounds", sounds)
+    a.table("Audio_2DSounds", scripts)
+    with open(OUT_AUDIO, "w", encoding="utf-8", newline="\r\n") as fh:
+        fh.write(a.render())
 
 
 if __name__ == "__main__":

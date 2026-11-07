@@ -77,6 +77,8 @@ CREATE TABLE Civilization_Start_Along_Ocean (CivilizationType TEXT, StartAlongOc
 CREATE TABLE Civilization_CityNames (CivilizationType TEXT, CityName TEXT);
 CREATE TABLE Civilization_SpyNames (CivilizationType TEXT, SpyName TEXT);
 CREATE TABLE Diplomacy_Responses (LeaderType TEXT, ResponseType TEXT, Response TEXT, Bias INTEGER DEFAULT 1);
+CREATE TABLE Audio_Sounds (SoundID TEXT UNIQUE, Filename TEXT, LoadType TEXT);
+CREATE TABLE Audio_2DSounds (ScriptID TEXT UNIQUE, SoundID TEXT, SoundType TEXT, MinVolume INTEGER, MaxVolume INTEGER, IsMusic BOOLEAN);
 CREATE TABLE Language_en_US (ID INTEGER PRIMARY KEY AUTOINCREMENT, Tag TEXT UNIQUE NOT NULL, Text TEXT, Gender TEXT, Plurality TEXT);
 """
 
@@ -142,6 +144,7 @@ def main():
     run_xml(db, "Core/TL_Gameplay.xml")
     run_xml(db, "Text/TL_Text.xml")
     run_xml(db, "Core/TL_Extras.xml")
+    run_xml(db, "Core/TL_Audio.xml")
     for rel in ["Core/TL_Units.sql", "Core/TL_Buildings.sql", "Core/TL_Civilizations.sql"]:
         run_sql(db, rel)
 
@@ -162,7 +165,7 @@ def main():
     # medeniyetler
     civs = q("SELECT Type, PortraitIndex, DawnOfManImage, SoundtrackTag FROM Civilizations WHERE Type LIKE 'CIVILIZATION_TL_%' ORDER BY PortraitIndex")
     assert len(civs) == 6, civs
-    assert civs[5] == ("CIVILIZATION_TL_ATATURK", 5, "TL_Ataturk_DOM.dds", "Ottoman"), civs[5]
+    assert civs[5] == ("CIVILIZATION_TL_ATATURK", 5, "TL_Ataturk_DOM.dds", "TLTurk"), civs[5]
     assert q("SELECT COUNT(*) FROM Civilization_FreeUnits WHERE CivilizationType LIKE 'CIVILIZATION_TL_%'")[0][0] == 12
     assert q("SELECT COUNT(*) FROM Leader_MajorCivApproachBiases")[0][0] == 42
     assert q("SELECT Bias FROM Leader_MajorCivApproachBiases WHERE LeaderType='LEADER_TL_YAVUZ' AND MajorCivApproachType='MAJOR_CIV_APPROACH_WAR'") == [(9,)]
@@ -170,6 +173,11 @@ def main():
     assert q("SELECT COUNT(*) FROM Civilization_UnitClassOverrides")[0][0] == 6
     assert q("SELECT COUNT(*) FROM Civilization_BuildingClassOverrides")[0][0] == 6
     assert q("SELECT ArtStylePrefix FROM Civilizations WHERE Type='CIVILIZATION_TL_OSMAN'") == [("MIDDLE EAST",)]
+    # muzik: her betik bir sese, her ses var olan bir mp3 dosyasina bagli olmali
+    for sid, fname in q("SELECT s.ScriptID, a.Filename FROM Audio_2DSounds s LEFT JOIN Audio_Sounds a ON s.SoundID = a.SoundID"):
+        assert fname and os.path.exists(os.path.join(MOD, "Sounds", fname + ".mp3")), (sid, fname)
+    assert q("SELECT COUNT(*) FROM Audio_2DSounds WHERE ScriptID LIKE 'SONG_TLTURK_WAR_%'")[0][0] == 1
+    assert q("SELECT a.Filename FROM Audio_2DSounds s JOIN Audio_Sounds a ON s.SoundID=a.SoundID WHERE s.ScriptID LIKE 'SONG_TLTURK_WAR_%'") == [("TL_Music_Atak",)]
     # yardimci tablolar kaldirilmis olmali
     leftovers = q("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'TL_%'")
     assert leftovers == [], leftovers

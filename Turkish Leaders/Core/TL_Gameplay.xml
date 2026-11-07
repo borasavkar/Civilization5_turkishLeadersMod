@@ -2049,7 +2049,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_OSMAN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Osman_DOM.dds</DawnOfManImage>
@@ -2071,7 +2071,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_ORHAN_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Orhan_DOM.dds</DawnOfManImage>
@@ -2093,7 +2093,7 @@
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_FATIH_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Fatih_DOM.dds</DawnOfManImage>
@@ -2115,7 +2115,7 @@
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_YAVUZ_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Yavuz_DOM.dds</DawnOfManImage>
@@ -2137,7 +2137,7 @@
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_BATTAL_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Battal_DOM.dds</DawnOfManImage>
@@ -2159,7 +2159,7 @@
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>TL_CIV_ATLAS</IconAtlas>
 			<AlphaIconAtlas>TL_CIV_ALPHA_ATLAS</AlphaIconAtlas>
-			<SoundtrackTag>Ottoman</SoundtrackTag>
+			<SoundtrackTag>TLTurk</SoundtrackTag>
 			<MapImage>MapOttoman512.dds</MapImage>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_TL_ATATURK_TEXT</DawnOfManQuote>
 			<DawnOfManImage>TL_Ataturk_DOM.dds</DawnOfManImage>

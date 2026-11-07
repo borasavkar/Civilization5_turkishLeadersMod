@@ -23,6 +23,19 @@ Her liderin ayrıca şunları vardır:
 
 Oyundaki Osmanlı medeniyeti (Kanuni Sultan Süleyman) olduğu gibi kalır.
 
+### Müzik
+
+Altı Türk medeniyeti ortak bir müzik listesi kullanır (dosyalar `Turkish Leaders/Sounds/` klasöründe, telifsiz):
+
+| Durum | Parçalar |
+|---|---|
+| Barış (haritada gezinti) | Gezinti, Aşk, Locatin |
+| Savaş | Atak (yalnızca savaşta) |
+| Diplomasi ekranı, barış | Battal Gazi: Gezinti; diğer liderler: Locatin |
+| Diplomasi ekranı, savaş | Atak |
+
+Parçaların yeri `tools/build_gameplay.py` dosyasının başındaki müzik ayarlarından değiştirilebilir.
+
 ### Lider ekranları
 
 | | |
