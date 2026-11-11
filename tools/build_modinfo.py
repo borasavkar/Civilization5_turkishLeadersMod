@@ -11,7 +11,7 @@ from build_text import tr_safe  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOD = os.path.join(ROOT, "Turkish Leaders")
 MOD_ID = "8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10"
-VERSION = 3
+VERSION = 4
 
 DB_ORDER = [
     "Core/TL_Gameplay.xml",

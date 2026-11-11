@@ -10,7 +10,7 @@
 -- ------------------------------------------------------------
 CREATE TABLE TL_UnitMap (NewType TEXT, BaseType TEXT, Tag TEXT);
 INSERT INTO TL_UnitMap (NewType, BaseType, Tag) VALUES
-	('UNIT_TL_AKINCI',      'UNIT_HORSEMAN',           'AKINCI'),
+	('UNIT_TL_AKINCI',      'UNIT_KNIGHT',             'AKINCI'),
 	('UNIT_TL_YAYA',        'UNIT_SPEARMAN',           'YAYA'),
 	('UNIT_TL_SAHI_TOPU',   'UNIT_TREBUCHET',          'SAHI_TOPU'),
 	('UNIT_TL_TUFEKENDAZ',  'UNIT_MUSKETMAN',          'TUFEKENDAZ'),
@@ -71,7 +71,7 @@ DROP TABLE TL_UnitMap;
 -- ------------------------------------------------------------
 -- Birime ozel degisiklikler
 -- ------------------------------------------------------------
--- Kayi Akincisi (Atli yerine): +1 hareket
+-- Akinci (Sovalye yerine): +1 hareket
 INSERT INTO Unit_FreePromotions (UnitType, PromotionType) VALUES ('UNIT_TL_AKINCI', 'PROMOTION_TL_AKINCI');
 
 -- Yaya (Mizrakci yerine): 12 guc, ucretsiz Talim I

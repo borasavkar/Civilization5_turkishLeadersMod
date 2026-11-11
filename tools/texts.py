@@ -305,8 +305,8 @@ for civ, (head, body, fact) in CIV_PEDIA.items():
 # BENZERSIZ BIRIMLER
 # ======================================================================
 UNITS = {
-    "AKINCI": ("Kayı Akıncısı",
-               "Atlı yerine geçer. +1 hareket puanına sahiptir.",
+    "AKINCI": ("Akıncı",
+               "Şövalye (Knight) yerine geçer. +1 hareket puanına sahiptir.",
                "Akıncılar hızlı keşif ve baskın birimleridir. Fazladan hareket puanı sayesinde düşman topraklarına "
                "derin akınlar yapabilir, savunmasız işçileri ve yerleşimcileri yakalayabilirsiniz.",
                "Akıncılar, Osmanlı'nın erken döneminden itibaren düşman topraklarına hızlı baskınlar yapan hafif "

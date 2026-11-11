@@ -8,7 +8,7 @@
 
 | Lider | Medeniyet | Yetenek | Benzersiz birim | Benzersiz bina |
 |---|---|---|---|---|
-| **Osman Bey** | Kayı Beyliği | **Kuruluş Rüyası:** Sınırlar %33 daha hızlı genişler. Her şehir +1 Gıda üretir. | **Kayı Akıncısı** (Atlı yerine): +1 hareket | **Zaviye** (Tapınak yerine): +1 Gıda |
+| **Osman Bey** | Kayı Beyliği | **Kuruluş Rüyası:** Sınırlar %33 daha hızlı genişler. Her şehir +1 Gıda üretir. | **Akıncı** (Şövalye yerine): +1 hareket | **Zaviye** (Tapınak yerine): +1 Gıda |
 | **Orhan Gazi** | Osmanlı Beyliği | **İlk Düzenli Ordu:** Yakın dövüş ve barutlu birimler %25 daha hızlı üretilir ve +10 deneyimle başlar. Kara birimlerinin bakım masrafı %25 daha azdır. | **Yaya** (Mızrakçı yerine): +1 güç, ücretsiz Talim I | **Medrese** (Kütüphane yerine): +1 Bilim, +1 Kültür |
 | **Fatih Sultan Mehmet** | Osmanlı Devleti | **Kuşatma Ustası:** Kuşatma birimleri şehirlere karşı +%30 güç kazanır. Fethedilen şehirde direniş yarıya iner; nüfus x 10 Altın kazanılır. | **Şahi Topu** (Mancınık yerine): +4 menzilli, +2 yakın güç | **Kapalıçarşı** (Pazar yerine): +2 Altın, +1 Mutluluk |
 | **Yavuz Sultan Selim** | Osmanlı Hilafeti | **Halifelik:** Öldürülen düşmanların gücünün %50'si kadar İnanç kazanılır. Fethedilen her şehir nüfus x 15 İnanç kazandırır. | **Tüfekendaz** (Tüfekçi yerine): +2 güç, atlılara karşı +%33 | **Külliye** (Mabet yerine): +1 Kültür, +1 Gıda |

@@ -1290,7 +1290,7 @@
 			<Text>Halifelik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_AKINCI">
-			<Text>Atli yerine geçer. +1 hareket puanina sahiptir.</Text>
+			<Text>Sövalye (Knight) yerine geçer. +1 hareket puanina sahiptir.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TL_GAZI">
 			<Text>Kiliçli yerine geçer. Daha güçlüdür ve ücretsiz Sok I terfisiyle baslar.</Text>
@@ -1308,7 +1308,7 @@
 			<Text>Mizrakçi yerine geçer. Daha güçlüdür ve ücretsiz Talim I terfisiyle baslar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_AKINCI">
-			<Text>Kayi Akincisi</Text>
+			<Text>Akinci</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TL_AKINCI_STRATEGY">
 			<Text>Akincilar hizli kesif ve baskin birimleridir. Fazladan hareket puani sayesinde düsman topraklarina derin akinlar yapabilir, savunmasiz isçileri ve yerlesimcileri yakalayabilirsiniz.</Text>

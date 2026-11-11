@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10" version="3">
+<Mod id="8b1f7c52-4e0a-4d6e-9a1b-5c2f3e7d9a10" version="4">
   <Properties>
     <Name>Turk Liderleri (Turkish Leaders)</Name>
     <Stability>Beta</Stability>
@@ -68,14 +68,14 @@
     <File md5="9F1D110AEDE1B3D8570A6E21C8BCA221" import="0">Core/TL_Civilizations.sql</File>
     <File md5="18F03CE2C862E1E2CB45692642698AAA" import="0">Core/TL_Extras.xml</File>
     <File md5="E6A71EB70361662C2A6A9E9F14E1ED14" import="0">Core/TL_Gameplay.xml</File>
-    <File md5="95FCD30950C11B9A8E4D178205A8AD8F" import="0">Core/TL_Units.sql</File>
+    <File md5="C678F06FEEF64273E8ACDC3D60FA63A5" import="0">Core/TL_Units.sql</File>
     <File md5="154742DECEBAE2EE3B2C29C5C576C28F" import="0">Lua/TL_Traits.lua</File>
     <File md5="6245B35D8B74402D7753FE8448964687" import="0">Maps/TL_EMEA.lua</File>
     <File md5="5FF75957BF44ACBEC393CA08CDAB4033" import="1">Sounds/TL_Music_Ask.mp3</File>
     <File md5="6259061DE3FC0DE12F104EF2520EF55E" import="1">Sounds/TL_Music_Atak.mp3</File>
     <File md5="7ABDA2446F09A07E3F5D60237CBFAF10" import="1">Sounds/TL_Music_Gezinti.mp3</File>
     <File md5="0B4C09C4FC4AEC82A0852739041095FE" import="1">Sounds/TL_Music_Locatin.mp3</File>
-    <File md5="270F5D50AB7CFFBF5E6D5CD8F453593A" import="0">Text/TL_Text.xml</File>
+    <File md5="48C29F225277777D5AEE784EE675142D" import="0">Text/TL_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
